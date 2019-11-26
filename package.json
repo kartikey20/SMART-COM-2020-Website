@@ -1,0 +1,22 @@
+{
+  "name": "eced-website",
+  "version": "1.0.0",
+  "description": "ECED Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartikey20/ECED-website.git"
+  },
+  "author": "kartikey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kartikey20/ECED-website/issues"
+  },
+  "homepage": "https://github.com/kartikey20/ECED-website#readme",
+  "devDependencies": {
+    "eslint": "^6.7.1"
+  }
+}
