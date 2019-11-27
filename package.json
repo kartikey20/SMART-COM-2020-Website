@@ -1,7 +1,7 @@
 {
   "name": "eced-website",
   "version": "1.0.0",
-  "description": "ECED Website",
+  "description": "This website is for ECE Department",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/kartikey20/ECED-website.git"
   },
-  "author": "kartikey",
-  "license": "ISC",
+  "author": "kartikey <ranjankartikey1999@gmail.com> (https://www.linkedin.com/in/kartikey-ranjan-750164104/)",
+  "license": "GPL-3-only",
   "bugs": {
     "url": "https://github.com/kartikey20/ECED-website/issues"
   },
