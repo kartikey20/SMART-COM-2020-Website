@@ -16,7 +16,7 @@ div#header-container {
   background-color: rgb(45, 45, 45);
   color: #fff;
   line-height: 19px;
-  font-family: Lato, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 div#header-container img.mmmtu {
   position: absolute;
