@@ -3,8 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-.header-container {
-  padding-top:10px;
+div#header-container {
+  position: relative;
+  padding-top: 10px;
   padding-bottom: 10px;
   display: flex;
   justify-content: center;
@@ -12,8 +13,32 @@
   width: 100%;
   height: auto;
   text-align: center;
-  background-color: rgb(45,45,45);
+  background-color: rgb(45, 45, 45);
   color: #fff;
   line-height: 19px;
-  font-family:Lato,sans-serif;
+  font-family: Lato, sans-serif;
+}
+div#header-container img.mmmtu {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 100px;
+  vertical-align: middle;
+  height: auto;
+}
+div#header-container img.gbpiet-logo {
+  position: absolute;
+  right: 60px;
+  top: 20px;
+  width: 100px;
+  height: auto;
+  vertical-align: middle;
+}
+div#header-container img.iccca{
+  position: absolute;
+  left: 60px;
+  top: 20px;
+
+  height: auto;
+  vertical-align: middle;
 }
