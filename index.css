@@ -69,5 +69,5 @@ nav {
   transition: 0.3s ease;
 }
 .nav-links li:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
