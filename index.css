@@ -1,4 +1,4 @@
-html {
+body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -8,8 +8,8 @@ html {
 *:after {
   box-sizing: inherit;
 }
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }
 
 div#header-container {
