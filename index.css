@@ -1,81 +1,89 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+img{
+    max-width: 100%;
 }
 
 div#header-container {
-    position: relative;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    background-color: rgb(45, 45, 45);
-    color: #fff;
-    line-height: 19px;
-    font-family: 'Lato', sans-serif;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: rgb(45, 45, 45);
+  color: #fff;
+  line-height: 19px;
+  font-family: "Lato", sans-serif;
 }
 
 div#header-container img.mmmtu {
-    position: absolute;
-    right: 4em;
-    top: 2em;
-    width: 100px;
-    vertical-align: middle;
-    height: auto;
+  position: absolute;
+  right: 4em;
+  top: 2em;
+  width: 100px;
+  vertical-align: middle;
+  height: auto;
 }
 
 div#header-container img.gbpiet-logo {
-    position: absolute;
-    right: 12em;
-    top: 2em;
-    width: 90px;
-    height: auto;
-    vertical-align: middle;
+  position: absolute;
+  right: 12em;
+  top: 2em;
+  width: 90px;
+  height: auto;
+  vertical-align: middle;
 }
 
 div#header-container img.iccca {
-    position: absolute;
-    left: 4em;
-    top: 2em;
-    height: 70px;
-    width: auto;
-    vertical-align: middle;
+  position: absolute;
+  left: 4em;
+  top: 2em;
+  height: 70px;
+  width: auto;
+  vertical-align: middle;
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    font-family: "Montserrat", sans-serif;
-    background-color: rgb(0, 0, 79);
-    align-items: center;
-    min-height: 7vh;
-    text-transform: uppercase;
-    vertical-align: top;
-    border-top: 5px solid #1856FF;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(0, 0, 79);
+  align-items: center;
+  min-height: 7vh;
+  text-transform: uppercase;
+  vertical-align: top;
+  border-top: 5px solid #1856ff;
 }
 
 .nav-links {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    width: 90%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
 }
 
 .nav-links a {
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    font-size: 15px;
-    width: 100%;
-    font-weight: 500;
-    color: #f6f6f6;
-    transition: 0.3s ease;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  width: 100%;
+  font-weight: 500;
+  color: #f6f6f6;
+  transition: 0.3s ease;
 }
 
 .nav-links li:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
