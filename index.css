@@ -13,7 +13,6 @@ img {
 }
 
 div#header-container {
-  position: relative;
   padding-top: 5px;
   padding-bottom: 5px;
   display: flex;
@@ -32,6 +31,7 @@ div#header-container {
 
 div#header-container img.springer {
   position: absolute;
+  z-index: 1;
   right: 3.8em;
   top: 3.5em;
   width: 120px;
@@ -41,6 +41,7 @@ div#header-container img.springer {
 
 div#header-container img.gbpiet-logo {
   position: absolute;
+  z-index: 1;
   right: 11.8em;
   top: 3em;
   width: 90px;
@@ -50,6 +51,7 @@ div#header-container img.gbpiet-logo {
 
 div#header-container img.smart-comm {
   position: absolute;
+  z-index: 1;
   left: 3.8em;
   top: 5em;
   height: 2.5em;
