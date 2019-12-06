@@ -7,9 +7,28 @@
   display: grid;
   margin: 3vw;
 }
-.main-paper-submission-guidelines > h2{
-    font-family: Montserrat, sans-serif;
-    font-weight: bold;
-    font-size: 2.5vw;
-    color: rgb(0, 0, 79);
+.main-paper-submission-guidelines > h2 {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 2.5vw;
+  color: rgb(0, 0, 79);
+  margin-bottom: 1vw;
+}
+.main-paper-submission-guidelines > p {
+  font-family: Lato, sans-serif;
+  font-size: 1.2vw;
+  line-height: 140%;
+  margin-bottom: 1vw;
+}
+.main-paper-submission-guidelines > a {
+  margin-bottom: 1vw;
+}
+.row-grid {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 1vw;
+}
+
+.main-paper-submission-guidelines > p:nth-child(2) {
+  font-weight: 700;
 }
