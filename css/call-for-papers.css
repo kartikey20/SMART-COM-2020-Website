@@ -15,7 +15,7 @@ a {
 .heading-call-for-papers {
   font-family: Montserrat, sans-serif;
   font-weight: bold;
-  font-size: 4vmin;
+  font-size: 2.5vw;
   color: rgb(0, 0, 79);
 }
 
@@ -31,7 +31,7 @@ a {
 
 .main-call-for-papers > p {
   font-family: Lato, sans-serif;
-  font-size: 2.3vmin;
+  font-size: 1.2vw;
   line-height: 140%;
 }
 
