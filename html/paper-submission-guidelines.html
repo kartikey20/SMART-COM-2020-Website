@@ -93,15 +93,45 @@
       </p>
       <div class="row-grid">
         <div>
-          <div class="heading-row-grid">
-            <h3>TEMPLATES DOWNLOAD</h3>
+          <button class="accordion">Templates Download</button>
+          <div class="panel">
+            <p>Click the links below to download</p>
+            <ul>
+              <li><a href="#">US letter</a> (DOC, 62 KB) Updated May 2018</li>
+              <li><a href="#">A4</a> (DOC, 56 KB) Updated May 2018</li>
+              <li>
+                <a href="#">LaTeX Template Instructions</a> (PDF, 63 KB) [Be
+                sure to use the template's conference mode.]
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#">Template</a> (ZIP, 700 KB) Updated October 2019
+              </li>
+              <li><a href="#">LaTeX Bibliography Files</a> (ZIP, 309 KB)</li>
+            </ul>
           </div>
-
         </div>
         <div></div>
         <div></div>
         <div></div>
       </div>
     </div>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          let panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
   </body>
 </html>
