@@ -81,3 +81,7 @@
 .registration ul {
   margin-top: 1vmax;
 }
+
+ul li {
+  margin-left: 1vmax;
+}

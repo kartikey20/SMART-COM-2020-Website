@@ -39,5 +39,9 @@
 }
 
 .row-2 p {
-  color: white;
+    color: white;
+}
+
+.row-2 li {
+    margin-left: 1.2vmax;
 }
