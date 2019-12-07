@@ -63,14 +63,17 @@
   margin-top: 1vw;
   margin-bottom: 0.5vw;
 }
-.panel ul{
-  font-family: Lato,sans-serif;
+.panel ul {
+  font-family: Lato, sans-serif;
   font-size: 1.1vw;
   line-height: 140%;
   list-style: none;
   margin-bottom: 0.5vw;
 }
-.submission-list ul{
+.submission-list ul {
   list-style: inherit;
+  margin-top: 1vw;
+}
+.instruction ul {
   margin-top: 1vw;
 }
