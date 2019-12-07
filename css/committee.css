@@ -5,33 +5,33 @@
 }
 
 .main-committee {
-  display: grid;
-  grid-template-columns: auto 1fr 1fr;
-  grid-gap: 2.5vw;
-  margin: 3vw;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    grid-gap: 2.5vmax;
+    margin: 3vmax;
 }
 
 .main-committee p {
-  font-family: Montserrat, sans-serif;
-  font-weight: bold;
-  font-size: 2.5vw;
-  color: rgb(0, 0, 79);
-  margin-bottom: 1vw;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 2.5vmax;
+    color: rgb(0, 0, 79);
+    margin-bottom: 1vmax;
 }
 
 .main-committee ul {
-  font-family: Lato, sans-serif;
-  font-size: 1.3vw;
-  line-height: 140%;
-  font-weight: 700;
-  list-style: none;
-  margin-top: 0.3vw;
-  margin-bottom: 0.5vw;
+    font-family: Lato, sans-serif;
+    font-size: 1.3vmax;
+    line-height: 140%;
+    font-weight: 700;
+    list-style: none;
+    margin-top: 0.3vmax;
+    margin-bottom: 0.5vmax;
 }
 
 .main-committee li {
-  font-weight: normal;
-  font-size: 1.1vw;
+    font-weight: normal;
+    font-size: 1.1vmax;
 }
 
 .row-2 ul {

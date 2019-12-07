@@ -9,115 +9,115 @@ img {
 }
 
 div#header-container {
-  padding-top: 1vw;
-  padding-bottom: 1vw;
-  display: flex;
-  letter-spacing: 0.1vw;
-  line-height: 140%;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  text-align: center;
-  background-color: rgb(45, 45, 45);
-  color: #fff;
-  font-family: Lato, sans-serif;
-  font-size: 1.1vw;
+    padding-top: 1vmax;
+    padding-bottom: 1vmax;
+    display: flex;
+    letter-spacing: 0.1vmax;
+    line-height: 140%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: rgb(45, 45, 45);
+    color: #fff;
+    font-family: Lato, sans-serif;
+    font-size: 1.1vmax;
 }
 
 div#header-container img.springer {
-  position: absolute;
-  z-index: 1;
-  right: 3vw;
-  top: 5vw;
-  width: 7.8125vw;
-  height: auto;
+    position: absolute;
+    z-index: 1;
+    right: 3vmax;
+    top: 5vmax;
+    width: 7.8125vmax;
+    height: auto;
 }
 
 div#header-container img.gbpiet-logo {
-  position: absolute;
-  z-index: 1;
-  right: 12vw;
-  top: 7vh;
-  width: 5.859375vw;
-  height: auto;
+    position: absolute;
+    z-index: 1;
+    right: 12vmax;
+    top: 7vh;
+    width: 5.859375vmax;
+    height: auto;
 }
 
 div#header-container img.smart-comm {
-  position: absolute;
-  z-index: 1;
-  left: 3.8vw;
-  top: 11vh;
-  height: auto;
-  width: 17.708333333333332vw;
+    position: absolute;
+    z-index: 1;
+    left: 3.8vmax;
+    top: 11vh;
+    height: auto;
+    width: 17.708333333333332vmax;
 }
 
 nav {
-  display: flex;
-  justify-content: space-around;
-  background-color: rgb(0, 0, 79);
-  align-items: center;
-  min-height: 3.5vw;
-  text-transform: uppercase;
-  vertical-align: top;
-  border-top: 0.3vw solid #000036;
-  box-shadow: 0 8px 6px -6px #999;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 79);
+    align-items: center;
+    min-height: 3.5vmax;
+    text-transform: uppercase;
+    vertical-align: top;
+    border-top: 0.3vmax solid #000036;
+    box-shadow: 0 8px 6px -6px #999;
 }
 
 .nav-links {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  width: 100vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100vmax;
 }
 
 .nav-links a {
-  text-decoration: none;
-  font-family: "Lato", sans-serif;
-  letter-spacing: 0.05vw;
-  font-size: 1vw;
-  width: 100%;
-  font-weight: 500;
-  color: #f6f6f6;
-  transition: 0.3s ease;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.05vmax;
+    font-size: 1vmax;
+    width: 100%;
+    font-weight: 500;
+    color: #f6f6f6;
+    transition: 0.3s ease;
 }
 
 .container {
-  margin: 3vw;
-  display: grid;
-  grid-gap: 2vw;
-  grid-template-columns: 3fr 1fr;
+    margin: 3vmax;
+    display: grid;
+    grid-gap: 2vmax;
+    grid-template-columns: 3fr 1fr;
 }
 
 .main > h2 {
-  font-family: Montserrat, sans-serif;
-  font-weight: bold;
-  font-size: 2.5vw;
-  color: rgb(0, 0, 79);
-  margin-bottom: 1vw;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 2.5vmax;
+    color: rgb(0, 0, 79);
+    margin-bottom: 1vmax;
 }
 
 .main p {
-  font-family: Lato, sans-serif;
-  font-size: 1.2vw;
-  line-height: 140%;
-  margin-bottom: 1vw;
+    font-family: Lato, sans-serif;
+    font-size: 1.2vmax;
+    line-height: 140%;
+    margin-bottom: 1vmax;
 }
 
 .btn-column {
-  display: grid;
-  grid-gap: 0.5vw;
-  grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-gap: 0.5vmax;
+    grid-template-columns: 1fr 1fr;
 }
 
 .btn-column > div {
-  display: flex;
-  height: 3vw;
-  justify-content: center;
-  font-family: Montserrat, sans-serif;
-  font-size: 1.1vw;
-  align-items: center;
-  background-color: rgb(0, 0, 79);
+    display: flex;
+    height: 3vmax;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.1vmax;
+    align-items: center;
+    background-color: rgb(0, 0, 79);
 }
 
 a {
@@ -125,37 +125,37 @@ a {
 }
 
 .special-session {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-gap: 1vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 1vmax;
 }
 
 .teqip {
-  width: 5vw;
-  height: auto;
-  vertical-align: middle;
+    width: 5vmax;
+    height: auto;
+    vertical-align: middle;
 }
 
 .main > ul {
-  font-family: Lato, sans-serif;
-  font-size: 1.2vw;
-  line-height: 140%;
-  margin-bottom: 1vw;
+    font-family: Lato, sans-serif;
+    font-size: 1.2vmax;
+    line-height: 140%;
+    margin-bottom: 1vmax;
 }
 .link{
   position: relative;
 }
 .link:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 0.15vw;
-  display: block;
-  margin-top: 0.3vw;
-  right: 0;
-  background: #fff;
-  transition: width 0.2s ease;
-  -webkit-transition: width 0.2s ease;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0.15vmax;
+    display: block;
+    margin-top: 0.3vmax;
+    right: 0;
+    background: #fff;
+    transition: width 0.2s ease;
+    -webkit-transition: width 0.2s ease;
 }
 .link:hover:after{
   width: 100%;

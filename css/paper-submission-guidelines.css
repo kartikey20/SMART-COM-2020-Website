@@ -5,28 +5,28 @@
 }
 .main-paper-submission-guidelines {
   display: grid;
-  margin: 3vw;
+  margin: 3vmax;
 }
 .main-paper-submission-guidelines > h2 {
   font-family: Montserrat, sans-serif;
   font-weight: bold;
-  font-size: 2.5vw;
+  font-size: 2.5vmax;
   color: rgb(0, 0, 79);
-  margin-bottom: 1vw;
+  margin-bottom: 1vmax;
 }
 .main-paper-submission-guidelines > p {
   font-family: Lato, sans-serif;
-  font-size: 1.2vw;
+  font-size: 1.2vmax;
   line-height: 140%;
-  margin-bottom: 1vw;
+  margin-bottom: 1vmax;
 }
 .main-paper-submission-guidelines > a {
-  margin-bottom: 1vw;
+  margin-bottom: 1vmax;
 }
 .row-grid {
   display: grid;
   grid-template-rows: auto auto auto auto;
-  grid-gap: 1vw;
+  grid-gap: 1vmax;
 }
 
 .main-paper-submission-guidelines > p:nth-child(2) {
@@ -36,13 +36,13 @@
   background-color: #eee;
   color: #444;
   cursor: pointer;
-  padding: 1.17vw;
+  padding: 1.17vmax;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2vw;
+  font-size: 1.2vmax;
   font-weight: 600;
   transition: 0.4s;
 }
@@ -52,7 +52,7 @@
 }
 
 .panel {
-  padding: 0 1.17vw;
+  padding: 0 1.17vmax;
   background-color: white;
   height: auto;
   overflow: hidden;
@@ -60,24 +60,24 @@
 }
 .panel p {
   font-family: Lato, sans-serif;
-  font-size: 1.1vw;
-  margin-top: 1vw;
-  margin-bottom: 0.5vw;
+  font-size: 1.1vmax;
+  margin-top: 1vmax;
+  margin-bottom: 0.5vmax;
 }
 .panel ul {
   font-family: Lato, sans-serif;
-  font-size: 1.1vw;
+  font-size: 1.1vmax;
   line-height: 140%;
   list-style: none;
-  margin-bottom: 0.5vw;
+  margin-bottom: 0.5vmax;
 }
 .submission-list ul {
   list-style: inherit;
-  margin-top: 1vw;
+  margin-top: 1vmax;
 }
 .instruction ul {
-  margin-top: 1vw;
+  margin-top: 1vmax;
 }
-.registration ul{
-  margin-top: 1vw;
+.registration ul {
+  margin-top: 1vmax;
 }

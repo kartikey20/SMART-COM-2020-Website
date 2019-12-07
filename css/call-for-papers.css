@@ -15,25 +15,25 @@ a {
 .heading-call-for-papers {
   font-family: Montserrat, sans-serif;
   font-weight: bold;
-  font-size: 2.5vw;
+  font-size: 2.5vmax;
   color: rgb(0, 0, 79);
 }
 
 .container-call-for-papers {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  margin: 3vw;
+  margin: 3vmax;
 }
 
 .main-call-for-papers {
-  margin: 3vw;
+  margin: 3vmax;
 }
 
 .main-call-for-papers > p {
   font-family: Lato, sans-serif;
-  font-size: 1.2vw;
+  font-size: 1.2vmax;
   line-height: 140%;
-  margin-bottom: 1vw;
+  margin-bottom: 1vmax;
 }
 
 .main-call-for-papers > p:nth-child(2) {
@@ -49,9 +49,9 @@ a {
 }
 
 .table p {
-  padding-left: 0.5vw;
-  padding-top: 0.5vw;
-  padding-bottom: 0.5vw;
+  padding-left: 0.5vmax;
+  padding-top: 0.5vmax;
+  padding-bottom: 0.5vmax;
 }
 
 .column1 > p:nth-child(odd) {
