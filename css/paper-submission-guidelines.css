@@ -33,7 +33,7 @@
   font-weight: 700;
 }
 .accordion {
-  background-color: #eee;
+  background-color: #ccc;
   color: #444;
   cursor: pointer;
   padding: 1.17vmax;
@@ -53,7 +53,7 @@
 
 .panel {
   padding: 0 1.17vmax;
-  background-color: #ccc;
+  background-color: #eee;
   height: auto;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
