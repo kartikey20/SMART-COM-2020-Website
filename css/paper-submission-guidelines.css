@@ -25,7 +25,7 @@
 }
 .row-grid {
   display: grid;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: auto auto auto auto;
   grid-gap: 1vw;
 }
 
@@ -75,5 +75,8 @@
   margin-top: 1vw;
 }
 .instruction ul {
+  margin-top: 1vw;
+}
+.registration ul{
   margin-top: 1vw;
 }
