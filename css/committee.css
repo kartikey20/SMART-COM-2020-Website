@@ -5,33 +5,24 @@
 }
 
 .main-committee {
-    display: grid;
-    grid-template-columns: auto 1fr 1fr;
-    grid-gap: 2.5vmax;
-    margin: 3vmax;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-gap: 1.5vmax;
+  margin: 3vmax;
 }
-
-.main-committee p {
-    font-family: Montserrat, sans-serif;
-    font-weight: bold;
-    font-size: 2.5vmax;
-    color: rgb(0, 0, 79);
-    margin-bottom: 1vmax;
-}
-
 .main-committee ul {
-    font-family: Lato, sans-serif;
-    font-size: 1.3vmax;
-    line-height: 140%;
-    font-weight: 700;
-    list-style: none;
-    margin-top: 0.3vmax;
-    margin-bottom: 0.5vmax;
+  font-family: Lato, sans-serif;
+  font-size: 1.3vmax;
+  line-height: 140%;
+  font-weight: 700;
+  list-style: none;
+  margin-top: 0.3vmax;
+  margin-bottom: 0.5vmax;
 }
 
 .main-committee li {
-    font-weight: normal;
-    font-size: 1.1vmax;
+  font-weight: normal;
+  font-size: 1.1vmax;
 }
 
 .row-2 ul {
@@ -39,9 +30,21 @@
 }
 
 .row-2 p {
-    color: white;
+  color: white;
 }
 
 .row-2 li {
-    margin-left: 1.2vmax;
+  margin-left: 1.2vmax;
+}
+.committee-members {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1vw;
+}
+.committee-heading {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 2.5vmax;
+  color: rgb(0, 0, 79);
+  margin-bottom: 1vmax;
 }
