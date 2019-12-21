@@ -13,7 +13,7 @@ a {
 }
 .container-call-for-papers {
   display: grid;
-  grid-template-columns: 3fr auto;
+  grid-template-columns: 3fr 1fr;
   margin: 3vmax 3vmax 0;
 }
 
