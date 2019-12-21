@@ -7,13 +7,6 @@
   display: grid;
   margin: 3vmax;
 }
-.main-paper-submission-guidelines > h2 {
-  font-family: Montserrat, sans-serif;
-  font-weight: bold;
-  font-size: 2.5vmax;
-  color: rgb(0, 0, 79);
-  margin-bottom: 1vmax;
-}
 .main-paper-submission-guidelines > p {
   font-family: Lato, sans-serif;
   font-size: 1.2vmax;
@@ -44,7 +37,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 1.2vmax;
   font-weight: 600;
-  transition: 0.4s;
+  transition: all 0.3s ease;
 }
 .active,
 .accordion:hover {
