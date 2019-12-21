@@ -95,8 +95,8 @@ nav,
   grid-template-columns: 3fr 1fr;
 }
 
-.main > h2 {
-  font-family: Montserrat, sans-serif;
+.heading {
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 2.5vmax;
   color: rgb(0, 0, 79);
@@ -153,6 +153,6 @@ nav,
 }
 .btn a:hover {
   background-color: #00009c;
-  transform: scale(1.02);
+  transform: scale(1.03);
   box-shadow: 0 8px 6px -6px #999;
 }
