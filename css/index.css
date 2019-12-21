@@ -147,4 +147,10 @@ nav,
   padding: 1vmax 1.5vmax;
   font-family: "Montserrat", sans-serif;
   font-size: 1.03vmax;
+  color: white;
+  transition: all 0.3s ease;
+}
+.btn a:hover {
+  background-color: #00009c;
+  transform: scale(1.02);
 }
