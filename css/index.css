@@ -160,19 +160,32 @@ nav,
   transform: scale(1.03);
   box-shadow: 0 8px 6px -6px #999;
 }
-.small-heading{
+.small-heading {
   margin-top: 1vmax;
   font-family: "Lato", sans-serif;
   font-weight: bold;
   font-size: 1.5vmax;
   margin-bottom: 1vmax;
 }
-.special-session a{
+.special-session a {
+  font-size: 1vmax;
+  font-weight: 500;
+  letter-spacing: 0.01vw;
+}
+.fa-file-pdf-o {
+  color: red;
+}
+.academic-partners a > img {
+  height: 8vmax;
+  width: 100%;
+}
+.academic-partners a,
+.special-session a {
+  text-decoration: none;
+}
+.academic-partners p {
   font-size: 1vmax;
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 0.01vw;
-}
-.fa-file-pdf-o{
-  color: red;
 }
