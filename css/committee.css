@@ -13,16 +13,18 @@
 .main-committee ul {
   font-family: Lato, sans-serif;
   font-size: 1.5vmax;
+  list-style: none;
   line-height: 140%;
   font-weight: 700;
-  list-style: none;
-  margin-top: 0.3vmax;
+  color: #00004F;
+  margin-top: 0.5vmax;
   margin-bottom: 0.5vmax;
 }
 
 .main-committee li {
-  font-weight: normal;
+  font-weight: 600;
   font-size: 1.1vmax;
+  color: black;
 }
 
 .row-2 ul {
@@ -43,4 +45,13 @@
 }
 a{
   text-decoration: none;
+}
+.ai-google-scholar-square{
+  height: 16px;
+}
+.main-committee ul p{
+  line-height: 130%;
+  font-weight: normal;
+  font-size: 0.8vmax;
+  color: black;
 }
