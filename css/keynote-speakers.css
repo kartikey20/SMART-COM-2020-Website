@@ -25,7 +25,7 @@ section {
   margin-right: -3px;
   margin-bottom: 5rem;
   text-align: center;
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #333;
   position: relative;
@@ -140,8 +140,10 @@ section {
   .card:nth-child(4) {
     animation: fadeIn 0.3s 1.5s backwards;
   }
+  .card:nth-child(5) {
+    animation: fadeIn 0.3s 1.8s backwards;
+  }
   .card:hover {
     transform: scale(1.05);
   }
 }
-
