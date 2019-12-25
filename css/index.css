@@ -89,12 +89,13 @@ nav,
 .btn2 a {
   text-decoration: none;
 }
-
+.upper-container{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
 .container {
   margin: 3vmax;
-  display: grid;
-  grid-gap: 0.5vmax;
-  grid-template-columns: 3fr 1fr;
+
 }
 
 .heading {
