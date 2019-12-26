@@ -1,21 +1,21 @@
 {
-  "name": "eced-website",
+  "name": "smart-com2020-website",
   "version": "1.0.0",
-  "description": "This website is for ECE Department",
-  "main": "js/index.js",
+  "description": "This website is for SMART COMM 2020",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kartikey20/ECED-website.git"
+    "url": "git+https://github.com/kartikey20/SMART-COM-2020-Website"
   },
   "author": "kartikey <ranjankartikey1999@gmail.com> (https://www.linkedin.com/in/kartikey-ranjan-750164104/)",
   "license": "GPL-3-only",
   "bugs": {
-    "url": "https://github.com/kartikey20/ECED-website/issues"
+    "url": "https://github.com/kartikey20/SMART-COM-2020-Website/issues"
   },
-  "homepage": "https://github.com/kartikey20/ECED-website#readme",
+  "homepage": "https://kartikey20.github.io/SMART-COM-2020-Website/index.html",
   "devDependencies": {
     "eslint": "^6.7.2",
     "prettier": "1.19.1"
