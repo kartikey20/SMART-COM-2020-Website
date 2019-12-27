@@ -12,7 +12,7 @@ div#header-container {
   padding-top: 0.5vmax;
   padding-bottom: 0.5vmax;
   display: flex;
-  letter-spacing: 0.1vmax;
+  letter-spacing: 0.05vmax;
   line-height: 140%;
   justify-content: center;
   align-items: center;
@@ -89,13 +89,12 @@ nav,
 .btn2 a {
   text-decoration: none;
 }
-.upper-container{
+.upper-container {
   display: grid;
   grid-template-columns: 3fr 1fr;
 }
 .container {
   margin: 3vmax;
-
 }
 
 .heading {
@@ -198,4 +197,41 @@ nav,
   font-size: 1vmax;
   text-decoration: none;
   font-weight: 500;
+}
+.footer {
+  box-shadow: 0 -8px 6px -6px #999;
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.5fr;
+  background-color: #00004f;
+  color: white;
+  padding-bottom: 0.5vmax;
+}
+.footer-bottom {
+  padding: 1vmax;
+  background-color: #2d2d2d;
+  font-family: "Lato", sans-serif;
+  border-top: 0.3vmax solid #000036;
+  text-align: center;
+  color: white;
+}
+.about {
+  margin: 1vmax 0 1vmax 1vmax;
+  font-family: "Montserrat", sans-serif;
+}
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Lato", sans-serif;
+  flex-direction: column;
+}
+.footer-links li {
+  margin-top: 0.7vmax;
+
+}
+.footer-links a {
+  text-decoration: none;
+  color: #E9E9E9
 }
