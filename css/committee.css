@@ -22,15 +22,17 @@
 }
 
 .main-committee li {
-  font-weight: 600;
-  font-size: 1.1vmax;
+  font-weight: bold;
+  font-size: 1.2vmax;
   color: black;
 }
 
 .row-2 ul {
   list-style: inherit;
+  font-size: 1.5vmax;
 }
 .row-2 li {
+  font-weight: bold;
   margin-left: 1.2vmax;
 }
 .committee-members {
@@ -46,7 +48,7 @@ a {
 }
 .main-committee ul p {
   line-height: 130%;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 0.8vmax;
-  color: black;
+  color: #404040;
 }
