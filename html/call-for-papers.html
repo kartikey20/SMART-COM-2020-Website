@@ -7,6 +7,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=10.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Lato&display=swap"
       rel="stylesheet"
@@ -83,7 +84,7 @@
         </ul>
       </nav>
     </header>
-   <!-- <marquee behavior="scroll" direction="left" scrollamount="12"
+    <!-- <marquee behavior="scroll" direction="left" scrollamount="12"
       >This website is under development. All links will be updated
       soon.</marquee
     >-->
@@ -102,18 +103,12 @@
         journal) of research and recent developments in the topics related to
         the conference. It is required that the manuscript follows the standard
         camera-ready format. Please
-        <a
-          href="../html/coming-soon.html"
-          target="_blank"
-          >click here</a
-        >
+        <a href="../html/coming-soon.html" target="_blank">click here</a>
         to download the templates in MS Word.
       </p>
       <p>
         Authors should submit the papers online at
-        <a href="../html/coming-soon.html" target="_blank"
-          >(Click Here)</a
-        >
+        <a href="../html/coming-soon.html" target="_blank">(Click Here)</a>
         All papers that conform to submission guidelines will be peer reviewed
         and evaluated based on originality, technical strength, scientific
         contribution, relevance to conference theme, and readability. Acceptance
@@ -327,5 +322,30 @@
         </p>
       </div>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 50, // values from 0 to 3000, with step 50ms
+        duration: 500, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+      });
+    </script>
   </body>
 </html>
