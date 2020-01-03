@@ -218,7 +218,7 @@ nav,
 .footer-bottom {
   padding: 1vmax;
   background-color: #2d2d2d;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   border-top: 0.3vmax solid #000036;
   text-align: center;
   color: white;
@@ -231,7 +231,7 @@ nav,
   list-style: none;
   display: flex;
   justify-content: space-around;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   flex-direction: column;
 }
 .footer-links li {
