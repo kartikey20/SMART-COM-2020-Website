@@ -50,7 +50,7 @@ header h1, header h3 {
     font-size: 1.1em;
     margin-top: 10px;
     color: #FFF;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .box input[type="email"]:focus, .box input[type="email"]:active,
