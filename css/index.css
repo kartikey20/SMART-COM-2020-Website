@@ -252,8 +252,8 @@ marquee {
   vertical-align: center;
   font-size: 1vmax;
   color: red;
-  font-family: "Montserrat", sans-serif;
-
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
   position: absolute;
   top: 38vh;
 }
