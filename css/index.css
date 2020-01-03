@@ -232,7 +232,7 @@ nav,
   list-style: none;
   display: flex;
   justify-content: space-around;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
   flex-direction: column;
 }
 .footer-links li {
