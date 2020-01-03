@@ -248,3 +248,12 @@ nav,
   text-decoration: none;
   color: #f1f1f1;
 }
+marquee {
+  vertical-align: center;
+  font-size: 1vmax;
+  color: red;
+  font-family: "Montserrat", sans-serif;
+
+  position: absolute;
+  top: 38vh;
+}
