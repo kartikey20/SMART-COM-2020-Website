@@ -19,5 +19,8 @@
   "devDependencies": {
     "eslint": "^6.7.2",
     "prettier": "1.19.1"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6"
   }
 }
