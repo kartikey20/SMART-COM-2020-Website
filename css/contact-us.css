@@ -8,7 +8,7 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 1vmax;
 }
-li {
+.enquiry li {
   font-family: Lato, sans-serif;
   line-height: 140%;
   font-weight: bold;
@@ -18,7 +18,7 @@ li {
   margin-bottom: 0.5vmax;
   list-style: none;
 }
-ul p {
+.enquiry ul p {
   line-height: 130%;
   font-weight: bold;
   font-size: 0.8vmax;
