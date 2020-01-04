@@ -17,7 +17,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="../css/index.css" />
-    <link rel="stylesheet" type="text/css" href="../css/committee.css" />
+    <link rel="stylesheet" type="text/css" href="../css/contact-us.css" />
     <title>Smart Com 2020</title>
   </head>
   <body>
@@ -78,49 +78,56 @@
           <li>
             <a class="link" href="important-dates.html">Important Dates</a>
           </li>
-          <li><a class="link" href="../html/coming-soon.html">Registration</a></li>
+          <li>
+            <a class="link" href="../html/coming-soon.html">Registration</a>
+          </li>
 
           <li><a class="link" href="contact-us.html">Contact us</a></li>
         </ul>
       </nav>
     </header>
+    <div class="container">
+      <h2 class="heading">Contact us</h2>
+      <br />
+      <div class="enquiry">
+        <h2 class="enquiry-heading">For Enquiry, Please Contact :</h2>
+        <ul>
+          <li data-aos="fade-right">
+            Dr. Rajesh Kumar
+            <p>
+              Phone : 9412382784 <br />
+              Email: rajtisotra@gmail.com
+            </p>
+          </li>
+          <li data-aos="fade-right" data-aos-delay="200">
+            Dr. Sanjay Gairola
+            <p>
+              Phone : 99810917448 <br />
+              Email: sgairola.gbpiet@gmail.com
+            </p>
+          </li>
+          <li data-aos="fade-right"
+          data-aos-delay="400">
+            Mr. Pushkar Praveen
+            <p>
+              Phone : 8527069548 <br />
+              Email: pushkarcdac11@gmail.com
+            </p>
+          </li>
+          <li data-aos="fade-right"
+              data-aos-delay="600">
+            Mr. Surjeet Singh Patel
+            <p>
+              Phone : 9169581187 <br />
+              Email: surjeetsinghpatel@gmail.com
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div></div>
+    </div>
     <!--footer-->
     <div class="footer">
-      <div class="footer-content">
-        <div class="about">
-          <h2>Smart Com 2020</h2>
-          <br />
-          <p style="font-size: 12px;">&copy; 2020</p>
-        </div>
-        <div>
-          <ul class="footer-links">
-            <li><a class="link" href="./index.html">Home</a></li>
-
-            <li><a class="link" href="html/committee.html">Committee</a></li>
-            <li>
-              <a class="link" href="html/keynote-speakers.html">Invited Talk</a>
-            </li>
-            <li>
-              <a class="link" href="html/call-for-papers.html"
-                >Call for Papers</a
-              >
-            </li>
-            <li>
-              <a class="link" href="html/paper-submission-guidelines.html"
-                >Paper Submission Guidelines</a
-              >
-            </li>
-            <li><a class="link" href="../html/important-dates.html">Important Dates</a></li>
-            <li><a class="link" href="../html/coming-soon.html">Registration</a></li>
-
-            <li>
-              <a class="link" href="html/contact-us.html">Contact us</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="contact-form"></div>
-      </div>
       <div class="footer-bottom">
         <p>
           &copy; Smart Com 2020 | Designed & Developed by &nbsp;
@@ -137,24 +144,22 @@
       AOS.init({
         // Global settings:
         disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-        initClassName: 'aos-init', // class applied after initialization
-        animatedClassName: 'aos-animate', // class applied on animation
+        startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: "aos-init", // class applied after initialization
+        animatedClassName: "aos-animate", // class applied on animation
         useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
         disableMutationObserver: false, // disables automatic mutations' detections (advanced)
         debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
         throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
 
-
         // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
         offset: 120, // offset (in px) from the original trigger point
         delay: 50, // values from 0 to 3000, with step 50ms
         duration: 500, // values from 0 to 3000, with step 50ms
-        easing: 'ease', // default easing for AOS animations
+        easing: "ease", // default easing for AOS animations
         once: false, // whether animation should happen only once - while scrolling down
         mirror: false, // whether elements should animate out while scrolling past them
-        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-
+        anchorPlacement: "top-bottom" // defines which position of the element regarding to window should trigger the animation
       });
     </script>
   </body>
