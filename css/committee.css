@@ -50,3 +50,8 @@ a {
   font-size: 0.8rem;
   color: #7a7a7a;
 }
+@media screen and (max-width: 768px) {
+  .committee-members{
+    display: block;
+  }
+}

@@ -6,6 +6,9 @@
 html {
   font-size: 16px;
 }
+body {
+  overflow-x: hidden;
+}
 img {
   max-width: 100%;
 }
@@ -58,29 +61,20 @@ div#header-container img.smart-comm {
   top: 10vh;
   width: 18vw;
 }
+/*navigation bar*/
 
-nav {
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
   align-items: center;
   min-height: 3.2em;
   text-transform: uppercase;
   vertical-align: top;
   border-top: 0.25em solid #000036;
   box-shadow: 0 8px 6px -6px #999;
-}
-nav,
-.btn a,
-.btn2 a {
   background-color: rgb(0, 0, 79);
-}
-.nav-links,
-nav,
-.btn {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-}
-.nav-links {
-  width: 100vmax;
 }
 .nav-links a {
   font-family: "Lato", sans-serif;
@@ -89,16 +83,45 @@ nav,
   width: 100%;
   color: #f6f6f6;
   transition: 0.3s ease;
-}
-.nav-links a,
-.btn a,
-.btn2 a {
   text-decoration: none;
 }
+.burger {
+  display: none;
+}
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #00004f;
+  margin: 5px;
+}
+
+/*button*/
 .upper-container {
   display: grid;
   grid-template-columns: 3fr 1fr;
 }
+.btn a,
+.btn2 a {
+  background-color: rgb(0, 0, 79);
+  text-decoration: none;
+  padding: 1em 1.5em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: white;
+  transition: all 0.3s ease;
+}
+.btn a:hover,
+.btn2 a:hover {
+  background-color: #00009c;
+  transform: scale(1.03);
+  box-shadow: 0 8px 6px -6px #999;
+}
+.btn {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+/*main container*/
 .container {
   margin: 3em;
 }
@@ -154,20 +177,7 @@ nav,
 .link:hover:after {
   background: #fff;
 }
-.btn a,
-.btn2 a {
-  padding: 1em 1.5em;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
-  color: white;
-  transition: all 0.3s ease;
-}
-.btn a:hover,
-.btn2 a:hover {
-  background-color: #00009c;
-  transform: scale(1.03);
-  box-shadow: 0 8px 6px -6px #999;
-}
+
 .small-heading {
   font-family: "Lato", sans-serif;
   font-weight: bold;
@@ -202,6 +212,7 @@ nav,
   text-decoration: none;
   font-weight: 500;
 }*/
+/*footer */
 .footer {
   box-shadow: 0 -8px 6px -6px #999;
 }
@@ -257,6 +268,7 @@ nav,
   position: absolute;
   top: 38vh;
 }*/
+/*media queries*/
 @media screen and (max-width: 1600px) {
   .upper-container {
     grid-template-columns: 2.5fr 1fr;
@@ -265,5 +277,15 @@ nav,
 @media screen and (max-width: 1280px) {
   .upper-container {
     grid-template-columns: 2fr 1fr;
+  }
+}
+@media screen and (max-width: 768px) {
+
+  .upper-container {
+    display: block;
+  }
+
+  .btn {
+    margin-bottom: 2em;
   }
 }

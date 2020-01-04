@@ -7,6 +7,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=10.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Lato&display=swap"
@@ -17,6 +18,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="css/mobile-navigation-menu.css"
+            media="screen and (max-width: 768px)"
+    />
     <title>Smart Com 2020</title>
   </head>
   <body>
@@ -83,6 +90,11 @@
 
           <li><a class="link" href="html/contact-us.html">Contact us</a></li>
         </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
       </nav>
     </header>
 
@@ -94,7 +106,7 @@
 
       <div class="upper-container">
         <div data-aos="fade-up"><h2 class="heading">About Conference</h2></div>
-        <div data-aos="fade-up" class="side-column">
+        <div data-aos="fade-up">
           <!-- Side column-->
           <div data-aos="fade-left" data-aos-delay="500" class="btn">
             <a href="html/coming-soon.html">Submit Paper</a>
@@ -231,5 +243,6 @@
         anchorPlacement: "top-bottom" // defines which position of the element regarding to window should trigger the animation
       });
     </script>
+    <script src="JS/nav-animation.js"></script>
   </body>
 </html>
