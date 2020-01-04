@@ -12,7 +12,7 @@ html {
 }
 .main-paper-submission-guidelines > p {
   font-family: Lato, sans-serif;
-  font-size: 1.2vmax;
+  font-size: 1.2rem;
   line-height: 150%;
 
 }
@@ -33,14 +33,14 @@ html {
   background-color: #ccc;
   color: #444;
   cursor: pointer;
-  padding: 1.17vmax;
+  padding: 1em;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2vmax;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: bold;
   transition: all 0.3s ease;
 }
 .active,
@@ -49,7 +49,7 @@ html {
 }
 
 .panel {
-  padding: 0 1.17vmax;
+  padding: 0 1em;
   background-color: #eee;
   height: auto;
   overflow: hidden;
@@ -57,28 +57,28 @@ html {
 }
 .panel p {
   font-family: Lato, sans-serif;
-  font-size: 1.1vmax;
-  margin-top: 1vmax;
-  margin-bottom: 0.5vmax;
+  font-size: 1.2rem;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 .panel ul {
   font-family: Lato, sans-serif;
-  font-size: 1.1vmax;
-  line-height: 140%;
+  font-size: 1rem;
+  line-height: 150%;
   list-style: none;
-  margin-bottom: 0.5vmax;
+  margin-bottom: 0.5em;
 }
 .submission-list ul {
   list-style: inherit;
-  margin-top: 1vmax;
+  margin-top: 1em;
 }
 .instruction ul {
-  margin-top: 1vmax;
+  margin-top: 1em;
 }
 .registration ul {
-  margin-top: 1vmax;
+  margin-top: 1em;
 }
 
 ul li {
-  margin-left: 1vmax;
+  margin-left: 1em;
 }
