@@ -7,9 +7,10 @@ body {
   overflow-x: hidden;
 }
 html {
-  font-size: 10px;
+  font-size: 16px;
   font-family: "Roboto", sans-serif;
 }
+
 a {
   text-decoration: none;
   color: #fff;
@@ -20,10 +21,10 @@ section {
 }
 .heading {
   text-transform: uppercase;
-  font-size: 3.5rem;
+  font-size: 2.1rem;
   letter-spacing: 3px;
   margin-right: -3px;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -32,14 +33,14 @@ section {
 }
 .heading::after {
   content: "";
-  width: 10rem;
-  height: 0.8rem;
+  width: 6.25rem;
+  height: 0.5rem;
   background-color: #ccc;
   position: absolute;
-  bottom: -2rem;
+  bottom: -1.25rem;
   left: 50%;
   transform: translateX(-50%);
-  border-radius: 2rem;
+  border-radius: 1.25rem;
 }
 .card-wrapper {
   display: flex;
@@ -48,61 +49,61 @@ section {
   flex-direction: column;
 }
 .card {
-  width: 32rem;
+  width: 20rem;
   background-color: #ebeef8;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 2em 0;
-  box-shadow: 0.5rem 0.5rem 3rem rgba(0, 0, 0, 0.2);
+  margin: 1.25em 0;
+  box-shadow: 0.31rem 0.31rem 1.87rem rgba(0, 0, 0, 0.2);
 }
 .card .card-img {
   width: 100%;
-  height: 26rem;
+  height: 16.25rem;
   object-fit: cover;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
 }
 .profile-img {
-  width: 15rem;
-  height: 15rem;
+  width: 9.37rem;
+  height: 9.37rem;
   object-fit: cover;
   border-radius: 50%;
-  margin-top: -11rem;
+  margin-top: -6.875rem;
   z-index: 999;
-  border: 1rem solid #ebeef8;
+  border: 0.625rem solid #ebeef8;
 }
 .card h1 {
-  font-size: 2.5rem;
+  font-size: 1.56rem;
   color: #333;
-  margin: 1.5rem 0;
+  margin: 0.93rem 0;
 }
 .job-title {
   color: #777;
-  font-size: 1.5rem;
+  font-size: 0.93rem;
   font-weight: 300;
 }
 .about {
-  font-size: 1.5rem;
-  margin: 1.5rem 0;
+  font-size: 0.93rem;
+  margin: 0.93rem 0;
   font-style: italic;
   text-align: center;
   color: #333;
 }
 .card .btn {
-  padding: 1rem 2rem;
+  padding: 0.625rem 1.25rem;
   background-color: #445ae3;
-  border-radius: 2rem;
-  margin: 1rem 0;
+  border-radius: 1.25rem;
+  margin: 0.625rem 0;
   text-transform: uppercase;
   color: #eee;
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   transition: all 0.3s ease;
 }
 .card .btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0.31rem 0.31rem 1.25rem rgba(0, 0, 0, 0.2);
 }
 .card .btn:active {
   transform: translateY(0);
@@ -117,7 +118,7 @@ section {
     align-items: center;
   }
   .card {
-    margin: 2rem;
+    margin: 1.25rem;
     transition: transform 0.3s ease;
   }
   @keyframes fadeIn {
