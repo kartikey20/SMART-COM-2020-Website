@@ -23,6 +23,7 @@ html {
   display: grid;
   grid-template-rows: auto auto auto auto;
   grid-gap: 1em;
+  margin-top:1em;
 }
 
 .main-paper-submission-guidelines > p:nth-child(2) {
