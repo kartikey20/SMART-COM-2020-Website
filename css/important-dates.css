@@ -1,21 +1,24 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-td{
-    font-family: "Lato", sans-serif;
-    font-size: 1.2vmax;
+html {
+  font-size: 16px;
 }
-table{
-    display: flex;
-    justify-content: center;
-    margin: 3vmax;
+td {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
 }
-tr{
-    display: grid;
-    margin: 1vmax;
+table {
+  display: flex;
+  justify-content: center;
+  margin: 3em;
 }
-.table-heading{
-    font-size: 1.5vmax;
+tr {
+  display: grid;
+  margin: 1em;
+}
+.table-heading {
+  font-size: 1.5em;
 }
