@@ -16,7 +16,7 @@ a {
   color: #fff;
 }
 section {
-  padding: 2.3vmax 0;
+  padding: 2.3rem 0;
   background-color: #fff;
 }
 .heading {
@@ -147,4 +147,9 @@ section {
   .card:hover {
     transform: scale(1.05);
   }
+}
+.footer-about {
+  font-size: 1.2rem;
+  margin: 1em 0 1em 1em;
+  font-family: "Montserrat", sans-serif;
 }
