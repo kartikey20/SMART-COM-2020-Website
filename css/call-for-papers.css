@@ -52,3 +52,11 @@ img {
 .tracks{
   color: #4c4c4c;
 }
+@media screen and (max-width: 768px) {
+  .container-call-for-papers{
+    display: block;
+    margin-bottom: 2em;
+  }
+  .table {
+    display: block;
+}}
