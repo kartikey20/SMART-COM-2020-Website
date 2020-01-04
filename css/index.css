@@ -258,7 +258,8 @@ nav,
   top: 38vh;
 }*/
 @media screen and (max-width: 1600px) {
-  .btn a {
-    font-size: 0.9rem;
+  .upper-container {
+    grid-template-columns: 2.5fr 1fr;
   }
 }
+
