@@ -1,9 +1,11 @@
 body {
   background-color: #34495e;
 }
-
+html{
+  font-size: 16px;
+}
 header {
-  margin-top: 100px;
+  margin-top: 6.25em;
 }
 
 header h1,
@@ -28,7 +30,7 @@ header h3 {
 .box {
   background-color: #e74c3c;
   width: 100%;
-  padding: 20px;
+  padding: 1.25em;
   position: relative;
   box-sizing: border-box;
   overflow: visible;
@@ -37,7 +39,7 @@ header h3 {
 
 .box label {
   color: #fff;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-family: "Dosis", sans-serif;
 }
 
@@ -45,11 +47,11 @@ header h3 {
   background: transparent;
   border: none;
   border-bottom: solid 1px #fff;
-  padding: 5px;
+  padding: 0.3125em;
   width: 100%;
   box-sizing: border-box;
-  font-size: 1.1em;
-  margin-top: 10px;
+  font-size: 1.1rem;
+  margin-top: 0.625em;
   color: #fff;
   font-family: "Montserrat", sans-serif;
 }
@@ -63,14 +65,14 @@ header h3 {
 }
 
 .box button[type="submit"] {
-  margin: 30px auto;
+  margin: 1.875em auto;
   text-align: center;
   background: transparent;
   border: solid 3px #fff;
-  padding: 5px 15%;
+  padding: 0.3125em 15%;
   text-transform: uppercase;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-family: "Architects Daughter", cursive;
   border-radius: 3px;
   cursor: pointer;
@@ -80,7 +82,7 @@ header h3 {
 }
 
 .box button[type="submit"] .fa {
-  margin-left: 10px;
+  margin-left: 0.625em;
 }
 
 .box button[type="submit"]:hover {
@@ -109,8 +111,8 @@ header h3 {
 
 .thanks {
   z-index: 999;
-  width: 350px;
-  height: 80px;
+  width: 21.875em;
+  height: 5em;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
@@ -118,7 +120,7 @@ header h3 {
 }
 
 .thanks p {
-  font-size: 4em;
+  font-size: 4rem;
   color: #fff;
   text-algin: center;
   margin: 0 auto;
@@ -129,6 +131,9 @@ header h3 {
 /* Desktops and laptops ----------- */
 @media only screen and (max-width: 1024px) {
   .container {
-    width: 60%;
+    width: 90%;
+  }
+  html{
+    font-size: 14px;
   }
 }
