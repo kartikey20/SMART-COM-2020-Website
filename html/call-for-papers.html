@@ -9,20 +9,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="../css/index.css" />
     <link rel="stylesheet" type="text/css" href="../css/call-for-papers.css" />
     <link
-            rel="stylesheet"
-            type="text/css"
-            href="../css/mobile-navigation-menu.css"
-            media="screen and (max-width: 768px)"
+      rel="stylesheet"
+      type="text/css"
+      href="../css/mobile-navigation-menu.css"
+      media="screen and (max-width: 768px)"
     />
     <title>Smart Com 2020</title>
   </head>
@@ -73,10 +69,14 @@
           <li><a class="link" href="./index.html">Home</a></li>
           <li><a class="link" href="../html/committee.html">Committee</a></li>
           <li>
-            <a class="link" href="../html/keynote-speakers.html">Invited Talk</a>
+            <a class="link" href="../html/keynote-speakers.html"
+              >Invited Talk</a
+            >
           </li>
           <li>
-            <a class="link" href="../html/call-for-papers.html">Call for Papers</a>
+            <a class="link" href="../html/call-for-papers.html"
+              >Call for Papers</a
+            >
           </li>
           <li>
             <a class="link" href="../html/paper-submission-guidelines.html"
@@ -84,9 +84,13 @@
             >
           </li>
           <li>
-            <a class="link" href="../html/important-dates.html">Important Dates</a>
+            <a class="link" href="../html/important-dates.html"
+              >Important Dates</a
+            >
           </li>
-          <li><a class="link" href="../html/coming-soon.html">Registration</a></li>
+          <li>
+            <a class="link" href="../html/coming-soon.html">Registration</a>
+          </li>
 
           <li><a class="link" href="../html/contact-us.html">Contact us</a></li>
         </ul>
@@ -105,8 +109,7 @@
       <div data-aos="fade-right">
         <h2 class="heading">Call For Papers</h2>
       </div>
-      <div data-aos="fade-left"
-           data-aos-delay="300" class="btn2">
+      <div data-aos="fade-left" data-aos-delay="300" class="btn2">
         <a href="../html/coming-soon.html">Submit Paper</a>
       </div>
     </div>
@@ -140,8 +143,12 @@
       <br />
       <div class="table">
         <div class="column1">
-          <h2 data-aos="fade-right"
-              data-aos-delay="200" class="tracks" style="font-weight: bold">
+          <h2
+            data-aos="fade-right"
+            data-aos-delay="200"
+            class="tracks"
+            style="font-weight: bold"
+          >
             TRACK 1: Smart System and Future Internet
           </h2>
           <br />
@@ -174,7 +181,9 @@
           <p>Smart Grids & Distributed Generation</p>
           <p>Social networking in smart environments</p>
           <br />
-          <h2 class="tracks" data-aos="fade-right">TRACK 2: Machine Intelligence and Data Science</h2>
+          <h2 class="tracks" data-aos="fade-right">
+            TRACK 2: Machine Intelligence and Data Science
+          </h2>
           <br />
           <p>Artificial Intelligence Tools & Applications</p>
           <p>Natural Language Processing</p>
@@ -229,11 +238,12 @@
           <p>Data Security</p>
           <p>Data Science and IoT</p>
           <p>Power System Monitoring</p>
-          <br>
+          <br />
         </div>
         <div class="column2">
-          <h2 data-aos="fade-left"
-              data-aos-delay="200" class="tracks">TRACK 3: Real-Time and VLSI System</h2>
+          <h2 data-aos="fade-left" data-aos-delay="200" class="tracks">
+            TRACK 3: Real-Time and VLSI System
+          </h2>
           <br />
           <p>Access Systems and Networks</p>
           <p>Molecular, Biological and Multi-scale Communications</p>
@@ -287,14 +297,14 @@
           <p>VLSI Signal processing</p>
           <p>VLSI for Instrumentation and Control</p>
           <p>VLSI for Wireless Communication 5G and beyond</p>
-          <br>
+          <br />
         </div>
       </div>
       <br />
     </div>
     <!--footer-->
     <div class="footer">
-     <!-- <div class="footer-content">
+      <!-- <div class="footer-content">
         <div class="about">
           <h2>Smart Com 2020</h2>
           <br />
@@ -345,24 +355,22 @@
       AOS.init({
         // Global settings:
         disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-        initClassName: 'aos-init', // class applied after initialization
-        animatedClassName: 'aos-animate', // class applied on animation
+        startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: "aos-init", // class applied after initialization
+        animatedClassName: "aos-animate", // class applied on animation
         useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
         disableMutationObserver: false, // disables automatic mutations' detections (advanced)
         debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
         throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
 
-
         // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
         offset: 0, // offset (in px) from the original trigger point
         delay: 50, // values from 0 to 3000, with step 50ms
         duration: 500, // values from 0 to 3000, with step 50ms
-        easing: 'ease', // default easing for AOS animations
+        easing: "ease", // default easing for AOS animations
         once: false, // whether animation should happen only once - while scrolling down
         mirror: false, // whether elements should animate out while scrolling past them
-        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-
+        anchorPlacement: "top-bottom" // defines which position of the element regarding to window should trigger the animation
       });
     </script>
     <script src="../JS/nav-animation.js"></script>
