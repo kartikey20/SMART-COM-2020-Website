@@ -25,5 +25,9 @@ tr {
 @media screen and (max-width: 768px) {
   .container {
     margin: 1em;
+}
+  .table{
+    margin: 1em;
   }
+
 }
