@@ -2,7 +2,7 @@ body {
   overflow-x: hidden;
 }
 html {
-  font-size: 12px;
+  font-size: 13px;
 }
 img.gbpiet-logo,
 img.smart-comm {
@@ -41,6 +41,9 @@ nav {
   -ms-user-select: none;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
+}
+.heading{
+  font-size: 2.3rem;
 }
 
 .nav-active {
