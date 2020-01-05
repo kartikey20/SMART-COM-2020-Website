@@ -27,12 +27,11 @@
 }
 
 .row-2 ul {
-  list-style: inherit;
+  list-style: none;
   font-size: 1.8rem;
 }
 .row-2 li {
   font-weight: bold;
-  margin-left: 1.2rem;
 }
 .committee-members {
   display: grid;
@@ -43,7 +42,7 @@ a {
   text-decoration: none;
 }
 .ai-google-scholar-square {
-  height: 16px;
+  height: 1.2em;
 }
 .main-committee ul p {
   line-height: 150%;
@@ -51,7 +50,7 @@ a {
   color: #7a7a7a;
 }
 @media screen and (max-width: 768px) {
-  .committee-members{
+  .committee-members {
     display: block;
   }
 }
