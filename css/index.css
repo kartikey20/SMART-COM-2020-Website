@@ -85,6 +85,9 @@ div#header-container img.smart-comm {
   transition: 0.3s ease;
   text-decoration: none;
 }
+nav .nav-active {
+  transform: translateX(0%);
+}
 .burger {
   display: none;
 }
@@ -93,6 +96,7 @@ div#header-container img.smart-comm {
   height: 3px;
   background-color: #00004f;
   margin: 5px;
+  transition: all 0.3s ease;
 }
 
 /*button*/
@@ -259,6 +263,7 @@ div#header-container img.smart-comm {
   text-decoration: none;
   color: #f1f1f1;
 }
+
 /*marquee {
   vertical-align: center;
   font-size: 1vmax;
@@ -280,7 +285,6 @@ div#header-container img.smart-comm {
   }
 }
 @media screen and (max-width: 768px) {
-
   .upper-container {
     display: block;
   }
@@ -288,4 +292,24 @@ div#header-container img.smart-comm {
   .btn {
     margin-bottom: 2em;
   }
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
 }
