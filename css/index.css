@@ -85,11 +85,16 @@ div#header-container img.smart-comm {
   transition: 0.3s ease;
   text-decoration: none;
 }
+.nav-body {
+  position: fixed;
+}
 nav .nav-active {
+  position: fixed;
   transform: translateX(0%);
-  -webkit-box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 2px 21px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 21px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 21px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
 }
 .burger {
   display: none;
