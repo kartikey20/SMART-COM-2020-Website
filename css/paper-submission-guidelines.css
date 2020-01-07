@@ -83,3 +83,9 @@ html {
 ul li {
   margin-left: 1em;
 }
+@media screen and (max-width: 768px) {
+  .main-paper-submission-guidelines {
+    display: grid;
+    margin: 2.1em;
+  }
+}

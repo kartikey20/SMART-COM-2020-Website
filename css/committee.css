@@ -55,4 +55,7 @@ a {
   .committee-members {
     display: block;
   }
+  .main-committee {
+    margin: 2.1em;
+  }
 }

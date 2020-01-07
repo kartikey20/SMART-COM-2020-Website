@@ -150,7 +150,6 @@ nav .nav-active {
   font-family: Lato, sans-serif;
   font-size: 1.2rem;
   line-height: 150%;
-  margin-right: 1em;
   word-break: break-word;
 }
 .teqip {
@@ -305,6 +304,7 @@ nav .nav-active {
   .btn {
     margin-bottom: 2em;
   }
+
 }
 
 @keyframes navLinkFade {
