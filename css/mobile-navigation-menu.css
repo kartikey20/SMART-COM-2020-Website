@@ -8,9 +8,6 @@ img.gbpiet-logo,
 img.smart-comm {
   display: none;
 }
-.container {
-  margin: 2.1em;
-}
 nav {
   background-color: white;
   box-shadow: none;
@@ -26,12 +23,16 @@ nav {
   flex-direction: column;
   align-items: center;
   width: 80%;
+
   z-index: 1000;
   transform: translateX(100%);
   transition: transform 0.5s ease-in;
 }
-.nav-links li{
+.nav-links li {
   opacity: 0;
+}
+.nav-links a {
+  letter-spacing: 0.1em;
 }
 .burger {
   display: block;
@@ -42,14 +43,9 @@ nav {
   border: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
 }
-.heading{
-  font-size: 2.3rem;
-}
-
 
