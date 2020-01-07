@@ -30,6 +30,9 @@ tr {
   .table{
     margin: 0;
   }
+  td {
+    margin-top: 0.5em;
+  }
   .heading{
     margin-left: 1.5em;
   }
