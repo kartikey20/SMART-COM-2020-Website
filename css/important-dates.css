@@ -28,7 +28,8 @@ tr {
     margin: 0.5em;
 }
   .table{
-    margin: 0;
+    justify-content: left;
+    margin: 2.1em;
   }
   td {
     margin-top: 0.5em;
