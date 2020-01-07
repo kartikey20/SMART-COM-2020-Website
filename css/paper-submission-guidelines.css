@@ -6,6 +6,7 @@
 html {
   font-size: 16px;
 }
+/*container div*/
 .main-paper-submission-guidelines {
   display: grid;
   margin: 3em;
@@ -24,14 +25,14 @@ html {
   grid-gap: 1em;
   margin-top: 1em;
 }
-
+/*highlighted 2nd para*/
 .main-paper-submission-guidelines > p:nth-child(2) {
   font-weight: 700;
   font-size: 1.5rem;
 }
 .accordion {
-  background-color: #ccc;
-  color: #444;
+  background-color: #4e4e4e;
+  color: white;
   cursor: pointer;
   padding: 1em;
   width: 100%;
@@ -45,9 +46,8 @@ html {
 }
 .active,
 .accordion:hover {
-  background-color: #ccc;
+  background-color: #2d2d2d;
 }
-
 .panel {
   padding: 0 1em;
   background-color: #eee;
