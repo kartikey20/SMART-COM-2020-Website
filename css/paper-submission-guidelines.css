@@ -14,7 +14,6 @@ html {
   font-family: Lato, sans-serif;
   font-size: 1.2rem;
   line-height: 150%;
-
 }
 .main-paper-submission-guidelines > a {
   margin-bottom: 1em;
@@ -23,7 +22,7 @@ html {
   display: grid;
   grid-template-rows: auto auto auto auto;
   grid-gap: 1em;
-  margin-top:1em;
+  margin-top: 1em;
 }
 
 .main-paper-submission-guidelines > p:nth-child(2) {
@@ -79,13 +78,19 @@ html {
 .registration ul {
   margin-top: 1em;
 }
-
+.call-for-papers-btn {
+  margin: 2em 0;
+}
 ul li {
   margin-left: 1em;
 }
+/*Mobile*/
 @media screen and (max-width: 768px) {
   .main-paper-submission-guidelines {
     display: grid;
     margin: 2.1em;
+  }
+  ul li {
+    margin-left: 0.5em;
   }
 }
