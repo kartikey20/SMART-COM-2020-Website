@@ -59,7 +59,10 @@ img {
   background: #eee;
 }
 .tracks {
-  color: #4c4c4c;
+  font-size: 1.4rem;
+  color: white;
+  background-color: #4e4e4e;
+  padding: 1em;
 }
 @media screen and (max-width: 768px) {
   .container-call-for-papers {
@@ -76,7 +79,7 @@ img {
   .main-call-for-papers {
     margin: 0 2.1em 2.1em;
   }
-  .btn2{
+  .btn2 {
     margin-bottom: 2.1em;
   }
 }
