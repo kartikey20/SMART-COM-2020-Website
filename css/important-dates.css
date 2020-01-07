@@ -14,27 +14,20 @@ td {
 table {
   display: flex;
   justify-content: center;
-  margin: 3em;
 }
 tr {
   display: grid;
-  margin: 1em;
+  margin: 1em 0;
 }
 .table-heading {
   font-size: 1.5em;
 }
 @media screen and (max-width: 768px) {
-  .container {
-    margin: 0.5em;
-}
   .table{
     justify-content: left;
-    margin: 2.1em;
   }
   td {
     margin-top: 0.5em;
   }
-  .heading{
-    margin-left: 1.5em;
-  }
+
 }
