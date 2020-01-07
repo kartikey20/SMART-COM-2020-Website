@@ -45,8 +45,10 @@ a {
   height: 1.2em;
 }
 .main-committee ul p {
+  font-family: "Montserrat", sans-serif;
   line-height: 150%;
   font-size: 1rem;
+  letter-spacing: 0.05em;
   color: #7a7a7a;
 }
 @media screen and (max-width: 768px) {
