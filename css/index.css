@@ -294,6 +294,12 @@ nav .nav-active {
   }
 }
 @media screen and (max-width: 768px) {
+  .container {
+    margin: 2.1em;
+  }
+  .heading {
+    font-size: 2.3rem;
+  }
   .main p {
     margin-right: 0;
   }
