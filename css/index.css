@@ -91,9 +91,9 @@ div#header-container img.smart-comm {
 nav .nav-active {
   position: fixed;
   transform: translateX(0%);
-  -webkit-box-shadow: 0px 2px 21px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 2px 21px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 2px 21px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 2px 21px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 2px 21px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 0 2px 21px 0 rgba(0, 0, 0, 0.75);
   overflow: hidden;
 }
 .burger {
@@ -304,7 +304,6 @@ nav .nav-active {
   .btn {
     margin-bottom: 2em;
   }
-
 }
 
 @keyframes navLinkFade {
