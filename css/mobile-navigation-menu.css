@@ -23,7 +23,6 @@ nav {
   flex-direction: column;
   align-items: center;
   width: 80%;
-
   z-index: 1000;
   transform: translateX(100%);
   transition: transform 0.5s ease-in;
