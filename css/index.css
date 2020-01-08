@@ -174,7 +174,7 @@ nav .nav-active {
   content: "";
   position: absolute;
   width: 0;
-  height: 0.3vh;
+  height: 0.09em;
   display: block;
   margin-top: 0.3em;
   right: 0;
