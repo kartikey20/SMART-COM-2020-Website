@@ -27,6 +27,8 @@ img {
   line-height: 140%;
   margin-bottom: 1em;
   word-break: break-word;
+  word-wrap: break-word;
+  text-align: justify;
 }
 
 .main-call-for-papers > p:nth-child(2) {
@@ -61,7 +63,7 @@ img {
 .tracks {
   font-size: 1.4rem;
   color: white;
-  background-color: #2D2D2D;
+  background-color: #2d2d2d;
   padding: 1em;
 }
 @media screen and (max-width: 768px) {
