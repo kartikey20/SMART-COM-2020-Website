@@ -50,19 +50,18 @@ div#header-container img.gbpiet-logo {
   position: absolute;
   z-index: 1;
   right: 15vw;
-  top: 6vh;
-  width: 6vw;
+  top: 4em;
+  width: 8em;
 }
 
 div#header-container img.smart-comm {
   position: absolute;
   z-index: 1;
   left: 3.8vw;
-  top: 10vh;
-  width: 18vw;
+  top: 7em;
+  width: 20em;
 }
 /*navigation bar*/
-
 .nav-links {
   list-style: none;
   display: flex;
@@ -137,7 +136,6 @@ nav .nav-active {
 .container {
   margin: 3em;
 }
-
 .heading {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -145,7 +143,6 @@ nav .nav-active {
   color: rgb(0, 0, 79);
   margin-bottom: 1em;
 }
-
 .main p {
   font-family: Lato, sans-serif;
   font-size: 1.2rem;
@@ -156,7 +153,7 @@ nav .nav-active {
 }
 .teqip {
   padding-top: 0.3em;
-  width: 5vmax;
+  width: 5em;
   height: auto;
   vertical-align: middle;
 }
@@ -316,7 +313,14 @@ nav .nav-active {
     margin-bottom: 2em;
   }
 }
-
+@media screen and (max-width: 350px) {
+  .heading {
+    font-size: 2.23rem;
+  }
+  .btn a {
+    font-size: 0.9rem;
+  }
+}
 @keyframes navLinkFade {
   from {
     opacity: 0;
