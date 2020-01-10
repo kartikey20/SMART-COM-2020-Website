@@ -36,28 +36,22 @@ img {
   font-weight: 700;
   background: none;
 }
-
 .table {
   display: grid;
-  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 1fr;
   font-family: Lato, sans-serif;
   font-size: 1.2rem;
-  margin-left: 3em;
-  margin-right: 3em;
+  margin: 0 3em;
+  grid-gap: 1em;
 }
-
 .table p {
   padding: 0.8em 0 0.8em 0.8em;
 }
-
-.column1 > p:nth-child(odd) {
-  background: #eee;
+.scroll {
+  overflow: scroll;
+  height: 58em;
 }
-
-.column2 > p:nth-child(odd) {
-  background: #eee;
-}
-.column3 > p:nth-child(odd) {
+.scroll > p:nth-child(odd) {
   background: #eee;
 }
 .tracks {
