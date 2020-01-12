@@ -15,7 +15,7 @@ const navSlide = function() {
         link.style.animation = "";
       } else {
         link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 +
-          0.5}s`;
+          0.4}s`;
       }
     });
     /*Burger Animation*/
