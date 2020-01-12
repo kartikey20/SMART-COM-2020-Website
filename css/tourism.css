@@ -25,6 +25,7 @@
   grid-gap: 1em;
 }
 .places img {
+  width: 100%;
   height: 18em;
   border: none;
   border-radius: 5px;
