@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.image {
+  display: block;
+  margin: 2em auto 0;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
+}
+.tourism-para {
+  margin-left: 9em;
+  margin-right: 9em;
+}
+.text {
+  text-align: center;
+}
+.places {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+.places img {
+  height: 18em;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
+}
+@media screen and (max-width: 768px) {
+  .tourism-para {
+    margin: 0;
+  }
+  .places {
+    display: block;
+  }
+}
