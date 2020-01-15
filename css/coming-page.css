@@ -1,7 +1,7 @@
 body {
   background-color: #34495e;
 }
-html{
+html {
   font-size: 16px;
 }
 header {
@@ -120,7 +120,7 @@ header h3 {
 .thanks p {
   font-size: 4rem;
   color: #fff;
-  text-algin: center;
+  text-align: center;
   margin: 0 auto;
   font-family: "Architects Daughter", cursive;
 }
@@ -131,7 +131,7 @@ header h3 {
   .container {
     width: 90%;
   }
-  html{
+  html {
     font-size: 14px;
   }
 }
