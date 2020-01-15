@@ -55,6 +55,13 @@ div#header-container img.smart-comm {
   top: 6em;
   width: 20em;
 }
+div#header-container img.amuc-logo {
+  position: absolute;
+  z-index: 1;
+  right: 7vw;
+  top: 3em;
+  width: 9em;
+}
 /*navigation bar*/
 .nav-links {
   list-style: none;
@@ -113,6 +120,7 @@ nav .nav-active {
 .btn a,
 .btn2 a {
   background-color: #330033;
+  border-radius: 2px;
   text-decoration: none;
   padding: 1em 1.5em;
   font-family: "Montserrat", sans-serif;
@@ -122,10 +130,12 @@ nav .nav-active {
 }
 .btn a:hover,
 .btn2 a:hover {
-  background-color: #330033;
+  background-color: #400040;
   transform: scale(1.03);
-  box-shadow: 0 8px 6px -6px #999;
-}
+  -webkit-box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.44);
+  -moz-box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.44);
+  box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.44);}
+
 .btn {
   list-style: none;
   display: flex;
