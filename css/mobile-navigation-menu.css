@@ -8,11 +8,6 @@ img.gbpiet-logo,
 img.smart-comm {
   display: none;
 }
-nav {
-  background-color: white;
-  box-shadow: none;
-  text-transform: lowercase;
-}
 .nav-links {
   position: absolute;
   right: 0;
