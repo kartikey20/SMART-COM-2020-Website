@@ -17,7 +17,7 @@ img {
   max-width: 100%;
 }
 div#header-container {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   display: flex;
@@ -34,18 +34,19 @@ div#header-container {
   font-family: Montserrat, sans-serif;
 }
 strong {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #f1f1f1;
 }
 em {
+  font-size: 1rem;
   color: #f1f1f1;
 }
 div#header-container img.gbpiet-logo {
   position: absolute;
   z-index: 1;
-  right: 15vw;
-  top: 3em;
-  width: 8em;
+  right: 6vw;
+  top: 1em;
+  width: 5em;
 }
 
 div#header-container img.smart-comm {
@@ -53,14 +54,14 @@ div#header-container img.smart-comm {
   z-index: 1;
   left: 3.8vw;
   top: 6em;
-  width: 20em;
+  width: 15em;
 }
 div#header-container img.amuc-logo {
   position: absolute;
   z-index: 1;
-  right: 7vw;
-  top: 3em;
-  width: 9em;
+  right: 6vw;
+  top: 7em;
+  width: 5em;
 }
 /*navigation bar*/
 .nav-links {
@@ -209,34 +210,6 @@ nav .nav-active {
   color: #330033;
   margin-bottom: 1em;
 }
-/*.special-session a {
-  font-family: "Lato", sans-serif;
-  font-size: 1vmax;
-  font-weight: 700;
-  transition: all 0.3s ease;
-}*/
-/*.special-session a:hover {
-  color: red;
-}
-.fa-file-pdf-o {
-  color: red;
-}
-.academic-partners a > img {
-  height: 8vmax;
-  width: 100%;
-}
-.academic-partners a,
-.special-session a {
-  text-decoration: none;
-  color: black;
-}
-.academic-partners p {
-  font-family: "Lato", sans-serif;
-  font-size: 1vmax;
-  text-decoration: none;
-  font-weight: 500;
-}*/
-/*footer */
 .footer {
   box-shadow: 0 -8px 6px -6px #999;
 }
