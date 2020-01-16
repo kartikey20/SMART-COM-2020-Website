@@ -44,7 +44,7 @@ em {
 div#header-container img.gbpiet-logo {
   position: absolute;
   z-index: 1;
-  right: 6vw;
+  right: 4vw;
   top: 1em;
   width: 5em;
 }
@@ -59,7 +59,7 @@ div#header-container img.smart-comm {
 div#header-container img.amuc-logo {
   position: absolute;
   z-index: 1;
-  right: 6vw;
+  right: 4vw;
   top: 7em;
   width: 5em;
 }
