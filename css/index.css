@@ -119,9 +119,10 @@ div#header-container img.amuc-logo {
   align-items: center;
 }
 .centered {
+  left: 46vw;
   position: absolute;
   top: 70%;
-  left: 50%;
+  width: 100%;
   font-family: Ubuntu, sans-serif;
   transform: translate(-50%, -50%);
   font-size: 1.3rem;
