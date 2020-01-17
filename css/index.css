@@ -38,6 +38,7 @@ strong {
   color: #f1f1f1;
 }
 em {
+  line-height: 100%;
   font-size: 1rem;
   color: #f1f1f1;
 }
@@ -48,13 +49,15 @@ div#header-container img.gbpiet-logo {
   top: 1em;
   width: 5em;
 }
-
 div#header-container img.smart-comm {
   position: absolute;
   z-index: 1;
   left: 3.8vw;
   top: 6em;
   width: 15em;
+}
+.w3-section {
+  display: block;
 }
 div#header-container img.amuc-logo {
   position: absolute;
@@ -88,6 +91,45 @@ div#header-container img.amuc-logo {
 }
 .nav-body {
   position: fixed; /*fixed background body when nav click*/
+  width: 100%;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 3em;
+}
+.swiper-wrapper {
+  position: relative;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.centered {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  font-family: Ubuntu, sans-serif;
+  transform: translate(-50%, -50%);
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+}
+.main-banner {
+  font-size: 6rem;
 }
 nav .nav-active {
   position: fixed;
@@ -133,10 +175,10 @@ nav .nav-active {
 .btn2 a:hover {
   background-color: #400040;
   transform: scale(1.03);
-  -webkit-box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.44);
-  -moz-box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.44);
-  box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.44);}
-
+  -webkit-box-shadow: 0px 3px 14px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 0px 3px 14px 0px rgba(0, 0, 0, 0.44);
+  box-shadow: 0px 3px 14px 0px rgba(0, 0, 0, 0.44);
+}
 .btn {
   list-style: none;
   display: flex;
@@ -284,6 +326,12 @@ nav .nav-active {
   }
   .heading {
     font-size: 2.3rem;
+  }
+  .centered {
+    display: none;
+  }
+  .main-banner {
+    font-size: 1rem;
   }
   .main p {
     margin-right: 0;

@@ -1,4 +1,3 @@
-<!--TODO: Add background animation-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,9 +10,10 @@
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap"
+      href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Ubuntu&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link
       rel="stylesheet"
@@ -31,11 +31,13 @@
             &nbsp;&nbsp;INTERNATIONAL CONFERENCE ON SMART MACHINE INTELLIGENCE
             AND REAL-TIME COMPUTING&nbsp;&nbsp;</strong
           >
-          <br />
-          (SMART COM 2020)
-          <br />
-          26 - 27 June 2020
-          <br />
+          <em
+            ><br />
+            (SMART COM 2020)
+            <br />
+            26 - 27 June 2020
+            <br
+          /></em>
           <strong>
             Govind Ballabh Pant Institute of Engineering & Technology
           </strong>
@@ -47,18 +49,19 @@
             Engineering</em
           >
           <br />
-          Sponsored by:
-          <a href="https://www.teqip.in/" target="_blank"
-            ><img alt="teqip-image" class="teqip" src="images/teqip3.png"
-          /></a>
+          <em
+            >Sponsored by:
+            <a href="https://www.teqip.in/" target="_blank"
+              ><img alt="teqip-image" class="teqip" src="images/teqip3.png"/></a
+          ></em>
           <a href="http://gbpec.ac.in/" target="_blank"
             ><img class="gbpiet-logo" src="images/gbpiet.png" alt="gbpiet_logo"
           /></a>
           <a href="index.html"
-          ><img
-                  class="smart-comm"
-                  src="images/Smart-Comm.png"
-                  alt="smart-com_logo"
+            ><img
+              class="smart-comm"
+              src="images/Smart-Comm.png"
+              alt="smart-com_logo"
           /></a>
           <a href="https://www.andhrauniversity.edu.in/"
             ><img
@@ -100,12 +103,35 @@
         </div>
       </nav>
     </header>
-
     <div class="container">
-      <!--<marquee behavior="scroll" direction="left" scrollamount="12"
-        >This website is under development. All links will be updated
-        soon.</marquee
-      >-->
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/photo2.png" alt="" />
+            <div class="centered">
+              <p data-aos="fade-up">
+                June 26-27th, 2020 | Govind Ballabh Pant Institute of
+                Engineering & Technology , India
+              </p>
+              <p data-aos="fade-down" data-delay="200" class="main-banner">
+                SMART COM 2020
+              </p>
+              <p data-aos="fade-up" data-delay="300">
+                International conference on smart machine intelligence and
+                real-time computing
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide"><img src="images/photo2.png" alt="" /></div>
+          <div class="swiper-slide"><img src="images/photo3.png" alt="" /></div>
+          <div class="swiper-slide"><img src="images/photo4.png" alt="" /></div>
+          <div class="swiper-slide"><img src="images/photo5.png" alt="" /></div>
+          <div class="swiper-slide"><img src="images/photo6.png" alt="" /></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
       <div class="upper-container">
         <div data-aos="fade-up"><h2 class="heading">About Conference</h2></div>
         <div data-aos="fade-up">
@@ -201,6 +227,15 @@
         once: false, // whether animation should happen only once - while scrolling down
         mirror: false, // whether elements should animate out while scrolling past them
         anchorPlacement: "top-bottom" // defines which position of the element regarding to window should trigger the animation
+      });
+    </script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true
+        }
       });
     </script>
     <script src="JS/nav-animation.js"></script>
