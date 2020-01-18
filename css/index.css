@@ -53,8 +53,8 @@ div#header-container img.smart-comm {
   position: absolute;
   z-index: 1;
   left: 3.8vw;
-  top: 6em;
-  width: 15em;
+  top: 3em;
+  vertical-align: middle;
 }
 .w3-section {
   display: block;
@@ -176,9 +176,9 @@ nav .nav-active {
 .btn2 a:hover {
   background-color: #570057;
   transform: scale(1.03);
-  -webkit-box-shadow: -12px 14px 33px -17px rgba(0,0,0,0.75);
-  -moz-box-shadow: -12px 14px 33px -17px rgba(0,0,0,0.75);
-  box-shadow: -12px 14px 33px -17px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -12px 14px 33px -17px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -12px 14px 33px -17px rgba(0, 0, 0, 0.75);
+  box-shadow: -12px 14px 33px -17px rgba(0, 0, 0, 0.75);
 }
 .btn {
   list-style: none;
