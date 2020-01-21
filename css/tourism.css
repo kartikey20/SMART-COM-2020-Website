@@ -6,6 +6,14 @@
 video{
   padding-left: 10em;
   padding-right: 10rem;
+  outline: none;
+  border: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 .iframe {
   display: block;
