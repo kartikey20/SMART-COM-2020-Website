@@ -52,8 +52,9 @@ div#header-container img.gbpiet-logo {
 div#header-container img.smart-comm {
   position: absolute;
   z-index: 1;
-  left: 3.8vw;
-  top: 3em;
+  left: 2em;
+  top: 2em;
+  width: 12em;
   vertical-align: middle;
 }
 .w3-section {
