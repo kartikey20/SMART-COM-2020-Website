@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.registration-container {
+  font-family: "Lato", sans-serif;
+}
+.registration-container > div {
+  margin-left: 25em;
+  margin-right: 25em;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+  vertical-align: middle;
+}
+table {
+  border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  .registration-container > div {
+    margin: 2em;
+  }
+}
