@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 .main-committee {
   display: grid;
   grid-template-rows: auto auto;
@@ -19,13 +18,11 @@
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
-
 .main-committee li {
   font-weight: bold;
   font-size: 1.4rem;
   color: black;
 }
-
 .row-2 ul {
   list-style: none;
   font-size: 2rem;
