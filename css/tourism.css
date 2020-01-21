@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+iframe {
+  display: block;
+  width: 900px;
+  height: 500px;
+  -webkit-box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
+}
 .image {
   display: block;
   margin: 2em auto 0;
@@ -13,8 +21,8 @@
   box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
 }
 .tourism-para {
-  margin-left: 9em;
-  margin-right: 9em;
+  margin-left: 18em;
+  margin-right: 18em;
 }
 .text {
   text-align: center;
@@ -39,5 +47,9 @@
   }
   .places {
     display: block;
+  }
+  iframe {
+    width: 100%;
+    height: 200px;
   }
 }
