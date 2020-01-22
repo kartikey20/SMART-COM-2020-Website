@@ -157,7 +157,6 @@ nav .nav-active {
   transition: all 0.3s ease;
 }
 .swiper-slide > img {
-  z-index: 1500;
   -webkit-box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
