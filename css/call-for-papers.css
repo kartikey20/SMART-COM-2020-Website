@@ -42,17 +42,26 @@ img {
   font-family: Lato, sans-serif;
   font-size: 1.2rem;
   margin: 0 3em;
-  grid-gap: 1em;
+  grid-gap: 3em;
 }
 .table p {
   padding: 0.8em 0 0.8em 0.8em;
 }
 .scroll {
-  overflow: scroll;
-  height: 58em;
+  overflow-x: hidden;
+  height: 55.9em;
+  -webkit-box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
+}
+.scroll:hover {
+  overflow-y: scroll;
 }
 .scroll > p:nth-child(odd) {
   background: #eee;
+}
+.scroll > p:nth-child(even) {
+  background: white;
 }
 .tracks {
   font-size: 1.4rem;
@@ -73,6 +82,9 @@ img {
   .table {
     display: block;
     margin: 0;
+  }
+  .table > div {
+    margin-bottom: 3em;
   }
   .container-call-for-papers {
     margin: 2.1em 2.1em 0;
