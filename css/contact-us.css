@@ -38,8 +38,9 @@ body {
   box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
 }
 .contact-cards {
-  height: 40em;
-  overflow-y: hidden;
+  height: 70em;
+
+  overflow-y: scroll;
   display: block;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 20em;
@@ -48,9 +49,7 @@ body {
   align-content: space-around;
   grid-gap: 2em;
 }
-.contact-cards:hover {
-  overflow-y: scroll;
-}
+
 .contact-details {
   width: 55%;
   padding: 30px;
