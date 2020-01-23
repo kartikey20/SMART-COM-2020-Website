@@ -28,7 +28,56 @@ body {
 .message-illustration {
   display: block;
   vertical-align: middle;
-  width: 75%;
+  width: 60%;
+}
+.scroll-container {
+  overflow-x: scroll;
+}
+.contact-cards {
+  background: #1fb6ff;
+  width: 170em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 20em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  align-content: space-around;
+  grid-gap: 2em;
+}
+.contact-details {
+  border-radius: 1em;
+  background: white;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  -webkit-box-shadow: 0px 3px 20px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 20px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 20px -4px rgba(0, 0, 0, 0.75);
+  margin-left: 3em;
+}
+.contact-details img {
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+.contact-details > h2 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  margin-right: 0.1em;
+}
+.contact-details > p {
+  margin-bottom: 1em;
+  font-size: 1.1em;
+  font-family: "Lato", sans-serif;
+}
+.contact-heading {
+  margin-left: 3em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.contact-heading img {
+  margin-left: 1em;
+  vertical-align: middle;
+  width: 2.5em;
 }
 .form > h2 {
   margin-top: 2em;
@@ -180,7 +229,7 @@ textarea.question:invalid ~ input[type="submit"] {
   }
 }
 @media screen and (max-width: 1680px) {
-  .message>div{
+  .message > div {
     margin: auto;
   }
   .message-illustration {
@@ -188,10 +237,7 @@ textarea.question:invalid ~ input[type="submit"] {
   }
 }
 @media screen and (max-width: 768px) {
-  .container {
-    display: block;
-  }
-  iframe {
-    margin-top: 1em;
+  .message {
+    grid-auto-flow: row;
   }
 }
