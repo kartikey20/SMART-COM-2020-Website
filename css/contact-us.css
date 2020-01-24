@@ -37,6 +37,11 @@ html {
   font-style: italic;
   font-weight: bold;
 }
+iframe {
+  -webkit-box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
+}
 .align-middle {
   vertical-align: middle;
 }
@@ -44,9 +49,9 @@ html {
   .container {
     display: block;
   }
-    .enquiry{
-        display: block;
-    }
+  .enquiry {
+    display: block;
+  }
   iframe {
     display: none;
   }
