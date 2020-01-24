@@ -1,48 +1,53 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
+}
+.enquiry {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
 }
 .enquiry li {
-    font-family: Lato, sans-serif;
-    line-height: 150%;
-    font-weight: bold;
-    font-size: 1.6rem;
-    color: black;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    list-style: none;
+  font-family: Lato, sans-serif;
+  line-height: 150%;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: black;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  list-style: none;
 }
 .enquiry ul p {
-    line-height: 140%;
-    font-weight: bold;
-    font-size: 1rem;
-    margin-top: 0.5em;
-    color: #494949;
+  line-height: 140%;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 0.5em;
+  color: #494949;
 }
 .enquiry-heading {
-    font-family: "Lato", sans-serif;
-    font-size: 1.8rem;
-    margin-bottom: 1.2em;
-    font-style: italic;
-    font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 1.2em;
+  font-style: italic;
+  font-weight: bold;
 }
-.align-middle{
-    vertical-align: middle;
+.align-middle {
+  vertical-align: middle;
 }
 @media screen and (max-width: 768px) {
-    .container {
+  .container {
+    display: block;
+  }
+    .enquiry{
         display: block;
     }
-    iframe {
-        margin-top: 1em;
-    }
+  iframe {
+    display: none;
+  }
 }
