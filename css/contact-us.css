@@ -15,24 +15,28 @@ html {
     font-family: Lato, sans-serif;
     line-height: 150%;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: black;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     list-style: none;
 }
 .enquiry ul p {
     line-height: 140%;
     font-weight: bold;
-    font-size: 0.8rem;
-    color: #7a7a7a;
+    font-size: 1rem;
+    margin-top: 0.5em;
+    color: #494949;
 }
 .enquiry-heading {
     font-family: "Lato", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 1.2em;
     font-style: italic;
     font-weight: bold;
+}
+.align-middle{
+    vertical-align: middle;
 }
 @media screen and (max-width: 768px) {
     .container {
