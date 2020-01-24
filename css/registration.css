@@ -16,16 +16,16 @@ body {
   text-align: center;
  transform: translateY(-60px);
   color: #1b1b1b;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-family: "Lato", sans-serif;
-  margin-left: 4em;
-  margin-right: 4em;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 .table-background2 {
   height: 20em;
 }
 table {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: "Montserrat", sans-serif;
   margin: auto;
   border-collapse: collapse;
@@ -54,9 +54,9 @@ td {
 }
 .fee {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-top: 2em;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   text-align: center;
 }
 .fee p{
@@ -73,7 +73,7 @@ table {
   -moz-border-radius: 6px;
 }
 .footer-bottom{
-  margin-top: 20em;
+  margin-top: 10em;
 }
 @media screen and (max-width: 768px) {
   .fee {
