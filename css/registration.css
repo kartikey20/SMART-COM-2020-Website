@@ -50,12 +50,12 @@ td {
 td {
 }
 .table-row {
-  background: #eeeeee;
+  background: #e1e1e1;
 }
 .fee {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 2em;
   text-align: center;
 }
