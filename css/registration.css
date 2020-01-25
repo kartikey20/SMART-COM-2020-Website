@@ -12,9 +12,9 @@ body {
 .table-background {
   margin-top: 15em;
 }
-.table-background>p{
+.table-background > p {
   text-align: center;
- transform: translateY(-60px);
+  transform: translateY(-60px);
   color: #1b1b1b;
   font-size: 1.2em;
   font-family: "Lato", sans-serif;
@@ -59,7 +59,7 @@ td {
   margin-bottom: 2em;
   text-align: center;
 }
-.fee p{
+.fee p {
   margin-top: 1em;
 }
 td:first-child,
@@ -72,7 +72,7 @@ table {
   border-radius: 6px;
   -moz-border-radius: 6px;
 }
-.footer-bottom{
+.footer-bottom {
   margin-top: 10em;
 }
 @media screen and (max-width: 768px) {
@@ -98,7 +98,7 @@ table {
     margin-bottom: 5em;
     text-align: center;
   }
-  .footer-bottom{
+  .footer-bottom {
     margin-top: 30em;
   }
 }
