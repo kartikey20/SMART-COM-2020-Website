@@ -107,9 +107,8 @@ div#header-container img.amuc-logo {
   text-decoration: none;
 }
 .nav-body {
-  position: fixed; /*fixed background body when nav click*/
+  overflow: hidden; /*fixed background body when nav click*/
   width: 100%;
-  background: #F3EEFA;
 }
 .swiper-container {
   width: 100%;
