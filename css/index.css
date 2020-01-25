@@ -214,7 +214,7 @@ nav .nav-active {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 2.5rem;
- color: #410041;
+  color: #410041;
   margin-bottom: 1em;
 }
 .main p {
@@ -270,7 +270,7 @@ nav .nav-active {
 .small-heading {
   font-family: "Lato", sans-serif;
   font-weight: bold;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   color: #410041;
   margin-bottom: 1em;
 }
@@ -349,7 +349,7 @@ nav .nav-active {
   .heading {
     font-size: 2.3rem;
   }
-  .swiper-container{
+  .swiper-container {
     display: none;
   }
   .centered {
