@@ -56,7 +56,8 @@ a {
   text-decoration: none;
 }
 .ai-google-scholar-square {
-  height: 1.2em;
+  height: 1.5em;
+  vertical-align: middle;
 }
 .main-committee ul p {
   font-family: "Montserrat", sans-serif;
