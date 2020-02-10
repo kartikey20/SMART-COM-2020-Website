@@ -6,6 +6,7 @@
 video{
   padding-left: 10em;
   padding-right: 10rem;
+  width: 30px;
   outline: none;
   border: none;
   -webkit-touch-callout: none;
@@ -18,8 +19,8 @@ video{
 .iframe {
   display: block;
   margin: auto;
-  width: 100%;
-  height: auto;
+  width: 60%;
+  height: 70%;
   border: none;}
 .image {
   display: block;
@@ -39,12 +40,12 @@ video{
 }
 .places {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 1em;
 }
 .places img {
   width: 100%;
-  height: 18em;
+  height:10em;
   border: none;
   border-radius: 5px;
   -webkit-box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.75);
