@@ -140,11 +140,11 @@ div#header-container img.amuc-logo {
 .centered {
   left: 46vw;
   position: absolute;
-  top: 70%;
+  top: 60%;
   width: 100%;
   font-family: Ubuntu, sans-serif;
   transform: translate(-50%, -50%);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: white;
 }
@@ -153,7 +153,7 @@ div#header-container img.amuc-logo {
   color: white;
 }
 .main-banner {
-  font-size: 4rem;
+  font-size: 6rem;
 }
 nav .nav-active {
   position: fixed;
@@ -237,7 +237,11 @@ nav .nav-active {
   list-style: none;
 }
 .side-bar li {
-  text-align: center;
+  margin-left: 0.5em;
+}
+.bold-letter {
+  font-weight: bold;
+  display: inline;
 }
 .side-bar-downloads {
   margin-top: 5em;
