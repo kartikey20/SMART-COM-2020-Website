@@ -266,6 +266,9 @@ nav .nav-active {
   font-size: 2.5rem;
   color: #330c0f;
 }
+.swiper-container{
+  margin-top: 3em;
+}
 .main {
   display: grid;
   grid-template-columns: 2.7fr 1fr;
@@ -420,7 +423,7 @@ nav .nav-active {
   }
 }
 @media screen and (max-width: 768px) {
-  .container {
+  .container1 {
     margin: 2.1em;
   }
   .heading {
