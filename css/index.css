@@ -61,16 +61,23 @@ em {
 div#header-container img.gbpiet-logo {
   position: absolute;
   z-index: 1;
-  right: 3vw;
-  top: 1em;
-  width: 5em;
+  right: 12vw;
+  top: 3em;
+  width: 6em;
 }
 div#header-container img.smart-comm {
   position: absolute;
   z-index: 1;
-  left: 2em;
+  left: 1em;
   top: 2em;
   width: 12em;
+  vertical-align: middle;
+}div#header-container img.ist {
+  position: absolute;
+  z-index: 1;
+  left: 11em;
+  top: 3em;
+  width: 7em;
   vertical-align: middle;
 }
 .w3-section {
@@ -81,8 +88,8 @@ div#header-container img.amuc-logo {
   position: absolute;
   z-index: 1;
   right: 3vw;
-  top: 7em;
-  width: 5em;
+  top: 3em;
+  width: 6em;
 }
 /*navigation bar*/
 .nav-links {
