@@ -45,6 +45,7 @@ div#header-container {
   height: auto;
   text-align: center;
   background-color: #52162c;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23711e3c' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23711e3c'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
   color: white;
   font-family: Montserrat, sans-serif;
 }
@@ -75,6 +76,7 @@ div#header-container img.smart-comm {
 .w3-section {
   display: block;
 }
+
 div#header-container img.amuc-logo {
   position: absolute;
   z-index: 1;
@@ -131,6 +133,10 @@ div#header-container img.amuc-logo {
   -webkit-align-items: center;
   align-items: center;
 }
+.swiper-slide img {
+  width: 100%;
+  height: 45vh;
+}
 .centered {
   left: 46vw;
   position: absolute;
@@ -142,8 +148,12 @@ div#header-container img.amuc-logo {
   font-weight: bold;
   color: white;
 }
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
+}
 .main-banner {
-  font-size: 6rem;
+  font-size: 4rem;
 }
 nav .nav-active {
   position: fixed;
@@ -203,7 +213,8 @@ nav .nav-active {
   justify-content: space-around;
 }
 .publication {
-  margin-left: 18vw;
+  margin-top: 1em;
+  margin-left: 10vw;
   display: grid;
   grid-template-columns: auto auto auto auto auto;
 }
@@ -219,13 +230,53 @@ nav .nav-active {
 .container {
   margin: 3em;
 }
+.container1 {
+  margin: 1em 3em 3em;
+}
+.side-bar ul {
+  list-style: none;
+}
+.side-bar li {
+  text-align: center;
+}
+.side-bar-downloads {
+  margin-top: 5em;
+  border: 2px solid black;
+}
+.side-bar-downloads li {
+  list-style: none;
+}
 .heading {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 2.5rem;
   color: #330c0f;
 }
+.main {
+  display: grid;
+  grid-template-columns: 2.7fr 1fr;
+  grid-gap: 1em;
+}
+.side-bar {
+  height: 25%;
+  margin-top: 1.2em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  border: 2px solid black;
+}
+.side-bar h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
 .main p {
+  font-family: Lato, sans-serif;
+  font-size: 1.2rem;
+  line-height: 150%;
+  word-break: break-word;
+  word-wrap: break-word;
+  text-align: justify;
+}
+.main1 p {
   font-family: Lato, sans-serif;
   font-size: 1.2rem;
   line-height: 150%;
@@ -244,7 +295,7 @@ nav .nav-active {
   grid-template-rows: 1fr 1fr;
 }
 
-.main > ul {
+.main ul {
   font-family: Lato, sans-serif;
   font-size: 1.2rem;
   line-height: 150%;
