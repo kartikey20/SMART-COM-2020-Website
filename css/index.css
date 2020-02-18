@@ -246,9 +246,12 @@ nav .nav-active {
 .side-bar-downloads {
   margin-top: 5em;
   border: 2px solid black;
+  height: 30em;
 }
 .side-bar-downloads li {
-  list-style: none;
+  font-size: 1rem;
+  list-style: inherit;
+  margin-right: 0.5em;
 }
 .heading {
   font-family: "Montserrat", sans-serif;
