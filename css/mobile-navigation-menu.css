@@ -6,8 +6,13 @@ html {
 }
 img.gbpiet-logo,
 img.smart-comm,
-img.amuc-logo {
+img.amuc-logo,
+img.ist,
+.side-bar {
   display: none;
+}
+.main{
+  display: block;
 }
 .nav-links {
   position: absolute;
