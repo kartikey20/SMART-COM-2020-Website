@@ -20,7 +20,6 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=10.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Ubuntu&display=swap"
@@ -127,7 +126,7 @@
     </header>
 
     <!-- Swiper -->
-    <div class="swiper-container">
+    <div class="swiper-container swiper1">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <img src="./images/photo1.jpeg" alt="" />
@@ -168,7 +167,6 @@
         <div data-aos="fade-up"><h2 class="heading">About Conference</h2></div>
         <div data-aos="fade-up">
           <!-- Side column-->
-          <br>
           <div data-aos="fade-left" data-aos-delay="500" class="btn">
             <a href=" https://easychair.org/conferences/?conf=smartcom20201"
               >Submit Paper</a
@@ -177,7 +175,7 @@
           </div>
         </div>
       </div>
-      <div data-aos="fade-up" class="main ">
+      <div data-aos="fade-up" class="main">
         <div>
           <!-- main content column-->
           <br />
@@ -216,6 +214,110 @@
           >
           <br />
           <br />
+          <div class="invited-speakers">
+            <div><h2 class="heading">Invited Speakers</h2></div>
+            <div class="swiper-container swiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="landing-card">
+                    <div class="card-image">
+                      <img src="images/Nguyen-Truong-Khang.jpg" alt="" />
+                    </div>
+                    <div class="card-description">
+                      <h3>Dr. Nguyen Truong Khang</h3>
+                      <p>Associate Professor</p>
+                      <p>Ton Duc Thang University</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="landing-card">
+                    <div class="card-image">
+                      <img src="images/Ayoub-khan.jpeg" alt="" />
+                    </div>
+                    <div class="card-description">
+                      <h3>Dr. Ayoub Khan</h3>
+                      <p>Associate Professor</p>
+                      <p>University of Bisha</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="landing-card">
+                    <div class="card-image">
+                      <img src="images/akrayfpt.jpg" alt="" />
+                    </div>
+                    <div class="card-description">
+                      <h3>Dr. A.K.Ray</h3>
+                      <p>Professor</p>
+                      <p>IIT Roorkee</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="landing-card">
+                    <div class="card-image">
+                      <img src="images/vc1.jpg" alt="" />
+                    </div>
+                    <div class="card-description">
+                      <h3>Dr. Vinod Kumar</h3>
+                      <p>Vice Chancellor</p>
+                      <p>JUIT</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="swiper-slide">
+                  <div class="landing-card">
+                    <div class="card-image">
+                      <img src="https://dummyimage.com/16:9x1080" alt="" />
+                    </div>
+                    <div class="card-description">
+                      <h3>Mr. T.N. Singh</h3>
+                      <p>ADDL General Manager</p>
+                      <p>Bharat Electronics Limited</p>
+                    </div>
+                  </div>
+                </div>-->
+                <div class="swiper-slide">
+                  <div class="landing-card">
+                    <div class="card-image">
+                      <img src="images/pragatikumar.jpg" alt="" />
+                    </div>
+                    <div class="card-description">
+                      <h3>Dr. Pragati Kumar</h3>
+                      <p>Professor</p>
+                      <p>Delhi Technical University</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="landing-card">
+                    <div class="card-image">
+                      <img src="images/Aparajita-Ojha.jfif" alt="" />
+                    </div>
+                    <div class="card-description">
+                      <h3>Dr. Aparajita Ojha</h3>
+                      <p>Professor</p>
+                      <p>IIITDM Jabalpur</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="swiper-slide">
+                  <div class="landing-card">
+                    <div class="card-image">
+                      <img src="https://dummyimage.com/16:9x1080" alt="" />
+                    </div>
+                    <div class="card-description">
+                      <h3></h3>
+                    </div>
+                  </div>
+                </div>-->
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
           <h2 class="heading main">Publication</h2>
           <br />
           <p>
@@ -225,8 +327,20 @@
           </p>
           <div class="publication">
             <div>
-              <img src="images/Picture1.png" alt="logo" />
+              <img
+                style="display: inline"
+                src="images/Picture1.png"
+                alt="logo"
+              />
             </div>
+            <div>
+              <img
+                style="display: inline"
+                src="images/publication2.jpeg"
+                alt=""
+              />
+            </div>
+            <div><img src="images/publication.jpeg" alt="" /></div>
             <div class="divide">
               <div>
                 <img
@@ -254,7 +368,7 @@
             </div>
           </div>
           <br />
-
+          <br>
           <h2 class="heading">Objectives</h2>
           <br />
           <ul>
@@ -315,18 +429,41 @@
               direction="up"
               height="300px"
               scrollamount="3"
+              onmouseover="this.stop();"
+              onmouseout="this.start();"
             >
               <ul>
                 <li>
                   Short papers can be submitted as poster paper.
                 </li>
+
+                <hr />
                 <br />
                 <li>
                   <p class="bold-letter">SMARTCOM 2020</p>
                   will be held at Govind Ballah Pant Institute of Engineering
                   and Technology, Pauri Garhwal on 26th-27th June,2020
                 </li>
-                <li><a href=""></a></li>
+
+                <hr />
+                <br />
+                <li>
+                  International Journal Of Intelligent Engineering
+                  Informatics(IJIEI)- Inderscience Publishers <br />
+                  <a
+                    href="https://www.inderscience.com/info/ingeneral/cfp.php?id=5117"
+                    >https://www.inderscience.com/info/ingeneral/cfp.php?id=5117</a
+                  >
+                </li>
+                <hr />
+                <br />
+                <li>
+                  Cloud Computing Internet of Things Architectures(EAI Endorsed
+                  Transactions)<br />
+                  <a href="https://escripts.eai.eu/publication/286">
+                    https://escripts.eai.eu/publication/286</a
+                  >
+                </li>
               </ul>
             </marquee>
           </div>
@@ -369,13 +506,26 @@
     </script>
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <script>
-      /*  var swiper = new Swiper(".swiper-container", {
+      var swiper = new Swiper(".swiper1", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        }
+      });
+      var swiper = new Swiper(".swiper2", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false
+        },
+        slidesPerGroup: 4,
+        loop: true,
+        loopFillGroupWithBlank: true,
         pagination: {
           el: ".swiper-pagination",
-          dynamicBullets: true
-        }
-      });*/
-      var swiper = new Swiper(".swiper-container", {
+          clickable: true
+        },
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev"
