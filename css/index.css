@@ -254,7 +254,7 @@ nav .nav-active {
 }
 
 .container {
-  margin: 3em;
+  margin: 1em 2em;
 }
 .grid {
   display: grid;
@@ -272,7 +272,7 @@ nav .nav-active {
 .about-conference p,
 .publication p {
   font-family: Lato, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 150%;
   word-break: break-word;
   word-wrap: break-word;
@@ -281,7 +281,7 @@ nav .nav-active {
 
 .objectives ul {
   font-family: Lato, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 150%;
   word-break: break-word;
   word-wrap: break-word;
