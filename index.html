@@ -119,9 +119,6 @@
             >
           </li>
           <li>
-            <a class="link" href="html/important-dates.html">Important Dates</a>
-          </li>
-          <li>
             <a class="link" href="html/registration.html">Registration</a>
           </li>
           <li><a class="link" href="html/contact-us.html">Contact us</a></li>
@@ -337,6 +334,9 @@
                 alt=""
               />
             </div>
+            <div>
+              <img class="img-box-shadow" src="images/raeeng.jpg" alt="" />
+            </div>
           </div>
           <div class="short-images">
             <div>
@@ -391,7 +391,11 @@
             <a href="html/Plagiarism-policy.html">Plagiarism Policy</a>
           </div>
         </div>
-        <div data-aos="fade-left" data-aos-delay="300"  class="important-dates-side-bar">
+        <div
+          data-aos="fade-left"
+          data-aos-delay="300"
+          class="important-dates-side-bar"
+        >
           <div>
             <h2>Important Dates</h2>
           </div>
@@ -418,7 +422,11 @@
             </li>
           </ul>
         </div>
-        <div  data-aos="fade-left" data-aos-delay="600" class="notification-side-bar">
+        <div
+          data-aos="fade-left"
+          data-aos-delay="600"
+          class="notification-side-bar"
+        >
           <div><h2>Notification</h2></div>
           <marquee
             behavior="scroll"
@@ -489,7 +497,7 @@
         delay: 50, // values from 0 to 3000, with step 50ms
         duration: 500, // values from 0 to 3000, with step 50ms
         easing: "ease", // default easing for AOS animations
-        once: false, // whether animation should happen only once - while scrolling down
+        once: true, // whether animation should happen only once - while scrolling down
         mirror: false, // whether elements should animate out while scrolling past them
         anchorPlacement: "top-bottom" // defines which position of the element regarding to window should trigger the animation
       });
@@ -498,7 +506,7 @@
     <script>
       var swiper = new Swiper(".swiper1", {
         autoplay: {
-          delay: 2000,
+          delay: 5000,
           disableOnInteraction: false
         },
         navigation: {
