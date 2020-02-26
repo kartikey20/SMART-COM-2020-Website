@@ -1,0 +1,24 @@
+.special-session-container{
+    margin: 3em;
+}
+.special-session-container p {
+  font-family: Lato, sans-serif;
+  font-size: 1rem;
+  line-height: 150%;
+  word-break: break-word;
+  word-wrap: break-word;
+  text-align: justify;
+}
+.special-session-container h2{
+    font-size: 2em;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 1em;
+}
+.special-session-container ul{
+    font-family: Lato, sans-serif;
+    font-size: 1rem;
+    line-height: 150%;
+    word-break: break-word;
+    word-wrap: break-word;
+    text-align: justify;
+}
