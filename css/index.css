@@ -333,6 +333,7 @@ publication section
 }
 .important-dates-side-bar {
   margin: 1em 0;
+  border: 2px solid black;
 }
 .notification-side-bar h2,
 .important-dates-side-bar h2 {
@@ -341,9 +342,14 @@ publication section
   font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
   background-color: #330c0f;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.15),
+  0 2px 2px rgba(0,0,0,0.15),
+  0 4px 4px rgba(0,0,0,0.15),
+  0 8px 8px rgba(0,0,0,0.15);
   color: white;
-  border-top-left-radius: 1em;
-  border-bottom-right-radius: 1em;
+}
+.important-dates-side-bar ul{
+  padding: 1em;
 }
 .important-dates-side-bar li {
   list-style: none;
@@ -351,6 +357,9 @@ publication section
   font-family: "Lato", sans-serif;
   line-height: 150%;
   margin-top: 0.5em;
+}
+.notification-side-bar{
+  border: 2px solid black;
 }
 .notification-side-bar ul li {
   font-size: 1rem;
