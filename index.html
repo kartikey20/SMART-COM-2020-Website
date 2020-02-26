@@ -29,6 +29,10 @@
       href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Ubuntu&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!--
     swiper CDN
 -->
@@ -108,7 +112,16 @@
           <li><a class="link" href="html/committee.html">Committee</a></li>
 
           <li>
-            <a class="link" href="html/call-for-papers.html">Call for Papers</a>
+            <div class="dropdown">
+              <button class="dropbtn">
+                Papers
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="html/call-for-papers.html">Call for Papers</a>
+                <a href="#">Call for Special Session</a>
+              </div>
+            </div>
           </li>
           <li>
             <a class="link" href="html/coming-soon.html">Special Session</a>
@@ -163,7 +176,7 @@
           <img src="./images/photo-slide4.jpeg" alt="" />
         </div>
         <div class="swiper-slide">
-          <img src="./images/photo-slide4.png" alt="" />
+          <img src="./images/photo-slide4.jpg" alt="" />
         </div>
       </div>
       <!-- Add Pagination -->
@@ -173,135 +186,223 @@
     <!--container-->
     <div class="container grid">
       <div class="main">
-        <div class="about-conference">
-          <div data-aos="fade-up">
-            <h2 class="heading">About Conference</h2>
-          </div>
-          <!-- main content column-->
-          <p>
-            Govind Ballah Pant Institute of Engineering & Technology, Pauri
-            Garhwal is proud to announce International Conference on " Smart,
-            Machine Intelligence and Real-Time (SMART) Computing ". The
-            conference is scheduled for 26 - 27 June 2020. This conference will
-            provide an excellent platform to the researchers for presenting
-            their research work and to get acquainted with recent research
-            trends in technology development. The conference will have separate
-            tracks covering recent and hot research topics in Electrical
-            Engineering, Electronics Engineering, Computer Engineering and
-            Applied Science. Computation has become a part of our daily life.
-            From finding friends online to solutions for climate change and
-            sustainable developments to curing autoimmune diseases, large scale
-            computation has found various applications in different fields.
-            There is a huge demand for data-intensive large scale computation
-            which will provide reliable, economical and user-friendly products.
-            Keeping these in mind, the conference will be devoted to
-            advancements in contemporary computing and applications. Researchers
-            from all over the country and abroad will gather in order to
-            introduce recent advances in the field. The conference will be a
-            successive catalyst in promoting research work, sharing views and
-            innovative ideas in the field.
-          </p>
-          <div class="submission-link">
-            <p>
-              Paper Submission Link :
-              <a href="https://easychair.org/conferences/?conf=smartcom20201"
-                >Submission link</a
-              >
-            </p>
-          </div>
-        </div>
-        <div class="invited-speakers">
-          <div><h2 class="heading">Invited Speakers</h2></div>
-          <div class="swiper-container swiper2">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="images/Nguyen-Truong-Khang.jpg" alt="" />
-                  </div>
-                  <div class="card-description">
-                    <h3>Dr. Nguyen Truong Khang</h3>
-                    <p>Associate Professor</p>
-                    <p>Ton Duc Thang University</p>
-                  </div>
-                </div>
+        <div class="grid">
+          <div>
+            <div class="about-conference">
+              <div data-aos="fade-up">
+                <h2 class="heading">About Conference</h2>
               </div>
-              <div class="swiper-slide">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="images/Ayoub-khan.jpeg" alt="" />
-                  </div>
-                  <div class="card-description">
-                    <h3>Dr. Ayoub Khan</h3>
-                    <p>Associate Professor</p>
-                    <p>University of Bisha</p>
-                  </div>
-                </div>
+              <!-- main content column-->
+              <p>
+                Govind Ballah Pant Institute of Engineering & Technology, Pauri
+                Garhwal is proud to announce International Conference on "
+                Smart, Machine Intelligence and Real-Time (SMART) Computing ".
+                The conference is scheduled for 26 - 27 June 2020. This
+                conference will provide an excellent platform to the researchers
+                for presenting their research work and to get acquainted with
+                recent research trends in technology development. The conference
+                will have separate tracks covering recent and hot research
+                topics in Electrical Engineering, Electronics Engineering,
+                Computer Engineering and Applied Science. Computation has become
+                a part of our daily life. From finding friends online to
+                solutions for climate change and sustainable developments to
+                curing autoimmune diseases, large scale computation has found
+                various applications in different fields. There is a huge demand
+                for data-intensive large scale computation which will provide
+                reliable, economical and user-friendly products. Keeping these
+                in mind, the conference will be devoted to advancements in
+                contemporary computing and applications. Researchers from all
+                over the country and abroad will gather in order to introduce
+                recent advances in the field. The conference will be a
+                successive catalyst in promoting research work, sharing views
+                and innovative ideas in the field.
+              </p>
+              <div class="submission-link">
+                <p>
+                  Paper Submission Link :
+                  <a
+                    href="https://easychair.org/conferences/?conf=smartcom20201"
+                    >Submission link</a
+                  >
+                </p>
               </div>
-              <div class="swiper-slide">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="images/Bhim_singh_new.jpg" alt="" />
+            </div>
+            <div class="invited-speakers">
+              <div><h2 class="heading">Invited Speakers</h2></div>
+              <div class="swiper-container swiper2">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="images/Nguyen-Truong-Khang.jpg" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <h3>Dr. Nguyen Truong Khang</h3>
+                        <p>Associate Professor</p>
+                        <p>Ton Duc Thang University</p>
+                      </div>
+                    </div>
                   </div>
-                  <div class="card-description">
-                    <h3>Dr. Bhim Singh</h3>
-                    <p>Professor</p>
-                    <p>IIT Delhi</p>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="images/Ayoub-khan.jpeg" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <h3>Dr. Ayoub Khan</h3>
+                        <p>Associate Professor</p>
+                        <p>University of Bisha</p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="images/akrayfpt.jpg" alt="" />
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="images/Bhim_singh_new.jpg" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <h3>Dr. Bhim Singh</h3>
+                        <p>Professor</p>
+                        <p>IIT Delhi</p>
+                      </div>
+                    </div>
                   </div>
-                  <div class="card-description">
-                    <h3>Dr. A.K.Ray</h3>
-                    <p>Professor</p>
-                    <p>IIT Roorkee</p>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="images/akrayfpt.jpg" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <h3>Dr. A.K.Ray</h3>
+                        <p>Professor</p>
+                        <p>IIT Roorkee</p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="images/vc1.jpg" alt="" />
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="images/vc1.jpg" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <h3>Dr. Vinod Kumar</h3>
+                        <p>Vice Chancellor</p>
+                        <p>JUIT</p>
+                      </div>
+                    </div>
                   </div>
-                  <div class="card-description">
-                    <h3>Dr. Vinod Kumar</h3>
-                    <p>Vice Chancellor</p>
-                    <p>JUIT</p>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="images/pragatikumar.jpg" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <h3>Dr. Pragati Kumar</h3>
+                        <p>Professor</p>
+                        <p>Delhi Technical University</p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="images/pragatikumar.jpg" alt="" />
-                  </div>
-                  <div class="card-description">
-                    <h3>Dr. Pragati Kumar</h3>
-                    <p>Professor</p>
-                    <p>Delhi Technical University</p>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="images/Aparajita-Ojha.jfif" alt="" />
-                  </div>
-                  <div class="card-description">
-                    <h3>Dr. Aparajita Ojha</h3>
-                    <p>Professor</p>
-                    <p>IIITDM Jabalpur</p>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="images/Aparajita-Ojha.jfif" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <h3>Dr. Aparajita Ojha</h3>
+                        <p>Professor</p>
+                        <p>IIITDM Jabalpur</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
+          </div>
+          <div class="side-column">
+            <div data-aos="fade-up">
+              <div data-aos="fade-left" data-aos-delay="500" class="btn">
+                <a href=" https://easychair.org/conferences/?conf=smartcom20201"
+                  >Submit Paper</a
+                >
+                <a href="html/Plagiarism-policy.html">Plagiarism Policy</a>
+              </div>
+            </div>
+            <div
+              data-aos="fade-left"
+              data-aos-delay="300"
+              class="important-dates-side-bar"
+            >
+              <div>
+                <h2>Important Dates</h2>
+              </div>
+              <ul>
+                <li>
+                  <p class="bold-letter">Submission Ends on :</p>
+                  15th April 2020.
+                </li>
+                <li>
+                  <p class="bold-letter">Acceptance Notification :</p>
+                  15th May 2020.
+                </li>
+                <li>
+                  <p class="bold-letter">Camera ready Deadline :</p>
+                  30th May 2020
+                </li>
+                <li>
+                  <p class="bold-letter">Last date for Registration :</p>
+                  15th June 2020.
+                </li>
+                <li>
+                  <p class="bold-letter">Conference :</p>
+                  26th - 27th June 2020
+                </li>
+              </ul>
+            </div>
+            <div
+              data-aos="fade-left"
+              data-aos-delay="600"
+              class="notification-side-bar"
+            >
+              <div><h2>Notification</h2></div>
+              <marquee
+                behavior="scroll"
+                direction="up"
+                height="350px"
+                scrollamount="3"
+                onmouseover="this.stop();"
+                onmouseout="this.start();"
+              >
+                <ul>
+                  <li>
+                    Short papers can be submitted as poster paper.
+                  </li>
+                  <hr />
+                  <li>
+                    <p class="bold-letter">SMARTCOM 2020</p>
+                    will be held at Govind Ballah Pant Institute of Engineering
+                    and Technology, Pauri Garhwal on 26th-27th June,2020
+                  </li>
+                  <hr />
+                  <li>
+                    International Journal Of Intelligent Engineering
+                    Informatics(IJIEI)- Inderscience Publishers <br />
+                    <a
+                      href="https://www.inderscience.com/info/ingeneral/cfp.php?id=5117"
+                      >https://www.inderscience.com/info/ingeneral/cfp.php?id=5117</a
+                    >
+                  </li>
+                  <hr />
+                  <li>
+                    Cloud Computing Internet of Things Architectures(EAI
+                    Endorsed Transactions)<br />
+                    <a href="https://escripts.eai.eu/publication/286">
+                      https://escripts.eai.eu/publication/286</a
+                    >
+                  </li>
+                </ul>
+              </marquee>
+            </div>
           </div>
         </div>
         <!--Publication -->
@@ -321,6 +422,9 @@
               />
             </div>
             <div>
+              <img class="img-box-shadow" src="images/raeeng.jpg" alt="" />
+            </div>
+            <div>
               <img
                 class="img-box-shadow"
                 src="images/publication2.jpeg"
@@ -333,9 +437,6 @@
                 src="images/publication.jpeg"
                 alt=""
               />
-            </div>
-            <div>
-              <img class="img-box-shadow" src="images/raeeng.jpg" alt="" />
             </div>
           </div>
           <div class="short-images">
@@ -382,91 +483,6 @@
         </div>
       </div>
       <!-- Side column-->
-      <div class="side-column">
-        <div data-aos="fade-up">
-          <div data-aos="fade-left" data-aos-delay="500" class="btn">
-            <a href=" https://easychair.org/conferences/?conf=smartcom20201"
-              >Submit Paper</a
-            >
-            <a href="html/Plagiarism-policy.html">Plagiarism Policy</a>
-          </div>
-        </div>
-        <div
-          data-aos="fade-left"
-          data-aos-delay="300"
-          class="important-dates-side-bar"
-        >
-          <div>
-            <h2>Important Dates</h2>
-          </div>
-          <ul>
-            <li>
-              <p class="bold-letter">Submission Ends on :</p>
-              15th April 2020.
-            </li>
-            <li>
-              <p class="bold-letter">Acceptance Notification :</p>
-              15th May 2020.
-            </li>
-            <li>
-              <p class="bold-letter">Camera ready Deadline :</p>
-              30th May 2020
-            </li>
-            <li>
-              <p class="bold-letter">Last date for Registration :</p>
-              15th June 2020.
-            </li>
-            <li>
-              <p class="bold-letter">Conference :</p>
-              26th - 27th June 2020
-            </li>
-          </ul>
-        </div>
-        <div
-          data-aos="fade-left"
-          data-aos-delay="600"
-          class="notification-side-bar"
-        >
-          <div><h2>Notification</h2></div>
-          <marquee
-            behavior="scroll"
-            direction="up"
-            height="500px"
-            scrollamount="3"
-            onmouseover="this.stop();"
-            onmouseout="this.start();"
-          >
-            <ul>
-              <li>
-                Short papers can be submitted as poster paper.
-              </li>
-              <hr />
-              <li>
-                <p class="bold-letter">SMARTCOM 2020</p>
-                will be held at Govind Ballah Pant Institute of Engineering and
-                Technology, Pauri Garhwal on 26th-27th June,2020
-              </li>
-              <hr />
-              <li>
-                International Journal Of Intelligent Engineering
-                Informatics(IJIEI)- Inderscience Publishers <br />
-                <a
-                  href="https://www.inderscience.com/info/ingeneral/cfp.php?id=5117"
-                  >https://www.inderscience.com/info/ingeneral/cfp.php?id=5117</a
-                >
-              </li>
-              <hr />
-              <li>
-                Cloud Computing Internet of Things Architectures(EAI Endorsed
-                Transactions)<br />
-                <a href="https://escripts.eai.eu/publication/286">
-                  https://escripts.eai.eu/publication/286</a
-                >
-              </li>
-            </ul>
-          </marquee>
-        </div>
-      </div>
     </div>
     <!--footer-->
     <div class="footer">
@@ -505,10 +521,6 @@
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <script>
       var swiper = new Swiper(".swiper1", {
-        autoplay: {
-          delay: 5000,
-          disableOnInteraction: false
-        },
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev"
@@ -518,10 +530,10 @@
         slidesPerView: 4,
         spaceBetween: 30,
         autoplay: {
-          delay: 2000,
+          delay: 1500,
           disableOnInteraction: false
         },
-        slidesPerGroup: 4,
+        slidesPerGroup: 1,
         loop: true,
         loopFillGroupWithBlank: true,
         pagination: {
