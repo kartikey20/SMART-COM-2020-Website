@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.tourism-container{
+  margin: 2em;
+}
 video{
   padding-left: 10em;
   padding-right: 10rem;
@@ -20,6 +23,7 @@ video{
   display: block;
   margin: auto;
   width: 60%;
+  padding-bottom: 2em;
   height: 70%;
   border: none;}
 .image {
