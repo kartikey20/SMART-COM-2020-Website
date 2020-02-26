@@ -24,7 +24,10 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
     <link
       href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap"
       rel="stylesheet"
@@ -110,9 +113,16 @@
           <li><a class="link" href="../html/committee.html">Committee</a></li>
 
           <li>
-            <a class="link" href="../html/call-for-papers.html"
-              >Call for Papers</a
-            >
+            <div class="dropdown">
+              <button class="dropbtn">
+                Papers
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="html/call-for-papers.html">Call for Papers</a>
+                <a href="#">Call for Special Session</a>
+              </div>
+            </div>
           </li>
           <li>
             <a class="link" href="../html/coming-soon.html"
