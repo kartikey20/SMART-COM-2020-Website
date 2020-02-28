@@ -348,7 +348,7 @@ publication section
 */
 
 .long-images {
-  justify-content: space-between;
+  justify-content:space-evenly;
   display: flex;
   flex-direction: row;
   margin: 1em 0;
@@ -358,7 +358,7 @@ publication section
 }
 .short-images {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: row;
 }
 .short-images img {
@@ -550,7 +550,8 @@ media queries
   }
   .long-images {
     flex-direction: column;
-    justify-content: center;
+    justify-content:start;
+
   }
   .short-images {
     flex-direction: column;
