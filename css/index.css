@@ -488,6 +488,7 @@ publication section
 }
 .card-description {
   margin-bottom: 1em;
+  height: 4em;
 }
 .card-description h3 {
   font-size: 0.9rem;
