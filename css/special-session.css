@@ -1,10 +1,13 @@
 .special-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 3em;
+
     margin: 2em;
 }
-
+.special-main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    margin:2em;
+}
 span {
     font-size: 1.8rem;
     font-family: Lato, sans-serif;
