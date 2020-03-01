@@ -360,12 +360,13 @@ publication section
 }
 .short-images {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: row;
 }
 .short-images img {
-  width: 15em;
-  height: 10em;
+  width: 9em;
+  height: 6em;
+  margin-right: 2em;
 }
 .img-box-shadow {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
