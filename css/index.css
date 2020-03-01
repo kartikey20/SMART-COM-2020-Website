@@ -113,7 +113,7 @@ div#header-container img.amuc-logo {
 .nav-links {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
   align-items: center;
   min-height: 3em;
