@@ -6,7 +6,14 @@
 }
 
 span {
-    padding-bottom: 5px;
-    border-bottom: 1px solid pink;
-    line-height: 48px;
+    font-size: 1.8rem;
+    font-family: Lato, sans-serif;
+}
+.special-session-heading{
+font-size: 1.2rem
+}
+.special-session-para{
+    text-align: justify;
+    font-size: 1rem;
+    font-family: Lato, sans-serif;
 }
