@@ -47,10 +47,6 @@ div#header-container {
   color: white;
   font-family: Montserrat, sans-serif;
 }
-strong {
-  font-size: 1.2rem;
-  color: #f1f1f1;
-}
 em {
   line-height: 100%;
   font-size: 1rem;
@@ -65,6 +61,9 @@ div#header-container img.gbpiet-logo {
   right: 12vw;
   top: 4em;
   width: 5em;
+}
+div#header-container p{
+  color: white;
 }
 /*
 smart com logo
@@ -296,8 +295,7 @@ nav .nav-active {
   font-size: 6rem;
 }
 .container {
-  margin-left: 2em;
-  margin-right: 2em;
+  margin: 0 1.5em;
 }
 .grid {
   display: grid;
@@ -396,10 +394,6 @@ publication section
 /*
 letter bold
 */
-.bold-letter {
-  display: inline;
-  font-weight: bold;
-}
 /*burger*/
 
 .burger {
@@ -509,6 +503,12 @@ footer section
 media queries
 */
 @media screen and (max-width: 768px) {
+  div#header-container{
+    font-size: 0.67rem;
+  }
+  em{
+    font-size:0.55rem;
+  }
   .heading {
     font-size: 2rem;
   }
