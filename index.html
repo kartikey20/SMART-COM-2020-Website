@@ -115,14 +115,10 @@
         <ul class="nav-links">
           <li><a class="link" href="./index.html">Home</a></li>
           <li><a class="link" href="html/committee.html">Committee</a></li>
-
-          <li class="no-mobile-display">
-            <!--
-            Dropdown for special session
+<!--
+          Fixed drop down menu
 -->
-            <!--
-            TODO: Fix drop down in mobile view
--->
+          <li class="dropbtn-nav-link">
             <div class="dropdown">
               <button class="dropbtn">
                 Papers
@@ -136,8 +132,17 @@
               </div>
             </div>
           </li>
+          <li class="mobile-only-nav-link">
+            <a href="html/call-for-papers.html">Call for Papers</a>
+          </li>
+          <li class="mobile-only-nav-link">
+            <a href="html/call-for-special-session.html"
+              >Call for Special Session</a
+            >
+          </li>
           <li>
-            <a class="link" href="html/special-session.html">Special Session
+            <a class="link" href="html/special-session.html"
+              >Special Session
             </a>
           </li>
           <li>
@@ -189,8 +194,10 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
       </div>
-
-      <div class="container">
+      <!--
+   Main container
+-->
+      <div class="main-container">
         <div class="grid">
           <div>
             <!--
@@ -384,11 +391,7 @@
             <!--
             important dates
 -->
-            <div
-              data-aos="fade-left"
-              data-aos-delay="300"
-              class="important-dates-side-bar"
-            >
+            <div class="important-dates-side-bar">
               <div>
                 <h2>Important Dates</h2>
               </div>
@@ -418,11 +421,7 @@
             <!--
             Notification container
 -->
-            <div
-              data-aos="fade-left"
-              data-aos-delay="500"
-              class="notification-side-bar"
-            >
+            <div class="notification-side-bar">
               <div><h2>Notification</h2></div>
               <marquee
                 behavior="scroll"
@@ -508,13 +507,6 @@
           Journal Publication images
 -->
           <div class="long-images">
-         <!--   <div>
-              <img
-                class="img-box-shadow"
-                src="images/publication3.png"
-                alt="logo"
-              />
-            </div>-->
             <div>
               <img class="img-box-shadow" src="images/raeeng.jpg" alt="" />
             </div>
