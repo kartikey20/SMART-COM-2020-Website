@@ -62,7 +62,7 @@ div#header-container img.gbpiet-logo {
   top: 4em;
   width: 5em;
 }
-div#header-container p{
+div#header-container p {
   color: white;
 }
 /*
@@ -178,6 +178,12 @@ nav .nav-active {
   box-shadow: 0 2px 21px 0 rgba(0, 0, 0, 0.75);
   overflow: hidden;
 }
+/*
+Dropdown navigation links
+*/
+.mobile-only-nav-link{
+  display: none;
+}
 .dropdown {
   float: left;
   overflow: hidden;
@@ -195,10 +201,6 @@ nav .nav-active {
   font-family: Lato, sans-serif;
   margin: 0;
 }
-
-/*.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #4f0f12;
-}*/
 
 .dropdown-content {
   margin-top: 0.2em;
@@ -226,6 +228,7 @@ nav .nav-active {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 /*heading*/
 
 .heading {
@@ -247,7 +250,7 @@ nav .nav-active {
 }
 .swiper-slide {
   text-align: center;
-  font-size: 18px; /* Center slide text vertically */
+  font-size: 18px;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -281,9 +284,9 @@ nav .nav-active {
 /*overlay text on swiper slide*/
 
 .centered {
-  left: 46vw;
   position: absolute;
-  top: 60%;
+  top: 55%;
+  left: 50%;
   width: 100%;
   font-family: Ubuntu, sans-serif;
   transform: translate(-50%, -50%);
@@ -294,7 +297,7 @@ nav .nav-active {
 .main-banner {
   font-size: 6rem;
 }
-.container {
+.main-container {
   margin: 0 1.5em;
 }
 .grid {
@@ -503,11 +506,17 @@ footer section
 media queries
 */
 @media screen and (max-width: 768px) {
-  div#header-container{
+  div#header-container {
     font-size: 0.67rem;
   }
-  em{
-    font-size:0.55rem;
+  em {
+    font-size: 0.55rem;
+  }
+  .dropbtn-nav-link {
+    display: none;
+  }
+  .mobile-only-nav-link{
+    display: block;
   }
   .heading {
     font-size: 2rem;
@@ -524,9 +533,17 @@ media queries
     display: flex;
     flex-direction: column;
   }
-  .long-images {
+  .long-images,.short-images {
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    justify-content: start;
+  }
+  .long-images img,.short-images img {
+    margin: 1em;
+  }
+  .publication{
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
   .short-images {
     flex-direction: column;
