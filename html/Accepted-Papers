@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style type="text/css">
+        .tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+        .tg td{background-color:#fdf6e3;border-color:#93a1a1;border-style:solid;border-width:1px;color:#002b36;
+          font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+        .tg th{background-color:#657b83;border-color:#93a1a1;border-style:solid;border-width:1px;color:#fdf6e3;
+          font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+        .tg .tg-1v5s{border-color:#000000;color:#680100;font-family:Verdana, Geneva, sans-serif !important;;font-size:18px;font-weight:bold;
+          text-align:left;vertical-align:bottom}
+        .tg .tg-kjj9{border-color:#000000;color:#680100;font-family:Verdana, Geneva, sans-serif !important;;font-size:13px;font-weight:bold;
+          text-align:left;vertical-align:bottom}
+        .tg .tg-y7et{background-color:#eee8d5;border-color:#000000;color:#680100;font-family:Verdana, Geneva, sans-serif !important;;
+          font-size:13px;font-weight:bold;text-align:left;vertical-align:bottom}
+        .tg .tg-h5n3{border-color:#000000;color:#680100;font-family:Verdana, Geneva, sans-serif !important;;font-size:13px;font-weight:bold;
+          text-align:left;vertical-align:top}
+        </style>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-156560380-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-156560380-1");
+    </script>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=10.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../css/registration.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../css/mobile-navigation-menu.css"
+      media="screen and (max-width: 768px)"
+    />
+    <title>Smart Com 2020</title>
+  </head>
+  <body>
+    <header>
+      <div id="header-container">
+        <p>
+          <strong>
+            &nbsp;&nbsp;INTERNATIONAL CONFERENCE ON SMART MACHINE INTELLIGENCE
+            AND REAL-TIME COMPUTING&nbsp;&nbsp;</strong
+          >
+          <em
+            ><br />
+            (SMART COM 2020)
+            <br />
+            26 - 27 June 2020
+            <br
+          /></em>
+          <strong>
+            Govind Ballabh Pant Institute of Engineering & Technology
+          </strong>
+          <br />
+          <em>Organized by</em>
+          <br />
+          <em
+            >Department of Electronics, Computer Science & Electrical
+            Engineering</em
+          >
+          <br />
+          <em
+            >Sponsored by:
+            <a href="https://www.teqip.in/" target="_blank"
+              ><img
+                alt="teqip-image"
+                class="teqip"
+                src="../images/teqip3.png"/></a
+          ></em>
+          <a href="http://gbpec.ac.in/" target="_blank"
+            ><img
+              class="gbpiet-logo"
+              src="../images/gbpiet.png"
+              alt="gbpiet_logo"/></a
+          ><a href="../index.html"
+            ><img
+              class="smart-comm"
+              src="../images/smart%20com.svg"
+              alt="smart-com"
+            />
+          </a>
+          <a href="../index.html"
+            ><img
+              class="ist"
+              src="../images/Indian_Society_for_Technical_Education.png"
+              alt="ist"
+            />
+          </a>
+          <a href="https://www.andhrauniversity.edu.in/"
+            ><img
+              class="amuc-logo"
+              src="../images/logo.png"
+              alt="smart-comm_logo"
+            />
+          </a>
+        </p>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a class="link" href="../index.html">Home</a></li>
+          <li><a class="link" href="committee.html">Committee</a></li>
+
+          <li class="dropbtn-nav-link">
+            <div class="dropdown">
+              <button class="dropbtn">
+                Papers
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="../html/call-for-papers.html">Call for Papers</a>
+                <a href="../html/call-for-special-session.html"
+                >Call for Special Session</a
+                >
+              </div>
+            </div>
+          </li>
+          <li class="mobile-only-nav-link">
+            <a class="link" href="../html/call-for-papers.html">Call for Papers</a>
+          </li>
+          <li class="mobile-only-nav-link">
+            <a class="link" href="../html/call-for-special-session.html"
+            >Call for Special Session</a
+            >
+          </li>
+          <li>
+            <a class="link" href="../html/special-session.html">SPECIAL SESSION</a>
+          </li>
+          <li>
+            <a class="link" href="paper-submission-guidelines.html"
+              >Paper Submission Guidelines</a
+            >
+          </li>
+          <li>
+            <a class="link" href="../html/registration.html">Registration</a>
+          </li>
+
+          <li><a class="link" href="../html/contact-us.html">Contact us</a></li>
+          <li>
+            <a class="link" href="../html/tourism.html">Tourism near venue</a>
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+    <div class="registration-container">
+
+      <h2 class="heading"> LIST OF ACCEPTED PAPERS IN SMART COM 2020 </h2>
+      <table class="tg">
+        <thead>
+          <tr>
+            <th class="tg-35u1"><h3>S. No.</h3></th>
+            <th class="tg-35u1"><h3>Paper ID</h3></th>
+            <th class="tg-35u1"><h3>Paper Title</h3></th>
+            <th class="tg-35u1"><h3>Author Names</h3></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg-ofbe">1</td>
+            <td class="tg-ofbe">2</td>
+            <td class="tg-ofbe">A Bengali Voice-Controlled AI Robot for the Physically Challenged</td>
+            <td class="tg-ofbe">Abul Bashar Bhuiyan, Anamika Ahmed, Sadid Rafsun Tulon and Md Rezwan   Hassan Khan. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">2</td>
+            <td class="tg-xuzn">3</td>
+            <td class="tg-xuzn">Blockchain Meets IoT: A Survey on Their Working and Application</td>
+            <td class="tg-xuzn">Shairy Kalra.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">3</td>
+            <td class="tg-ofbe">5</td>
+            <td class="tg-ofbe">A Novel Approach of PQRST Complex Detection Using Whale Optimization   Algorithm for Measurement of Heart Rate Variability</td>
+            <td class="tg-ofbe">Chitra Bhandari, A R Verma, Bhumika Gupta and Yashvir Singh. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">4</td>
+            <td class="tg-xuzn">8</td>
+            <td class="tg-xuzn">Toward Semantic Representation of Middleware Services</td>
+            <td class="tg-xuzn">Alaa Abd Elhamid Radwan and Mohammad Tabrez Quasim. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">5</td>
+            <td class="tg-ofbe">9</td>
+            <td class="tg-ofbe">A Comparative Study of Robust Image Watermarking Using DCT Transform with   Windowing Technique</td>
+            <td class="tg-ofbe">A Verma and Bhumika Gupta. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">6</td>
+            <td class="tg-xuzn">10</td>
+            <td class="tg-xuzn">AN EXPERIMENTAL SETUP OF HOME AUTOMATION USING ESP-8266:IOT APPLICATION   OF 21st CENTURY</td>
+            <td class="tg-xuzn">Rohit Rastogi, Puru Jain and Rishabh Jain. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">7</td>
+            <td class="tg-ofbe">11</td>
+            <td class="tg-ofbe">Reservoir and Irrigation Management System using Machine Learning</td>
+            <td class="tg-ofbe">Sangeetha, Ganka Manalan, Akshay Balaji, Harishkumar and Harish. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">8</td>
+            <td class="tg-xuzn">14</td>
+            <td class="tg-xuzn">Crop Disease Identification using State-of-the-Art Deep Convolutional   Neural Networks</td>
+            <td class="tg-xuzn">Aparajita Ojha, Tanuja Sheorey and Poornima Singh Thakur. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">9</td>
+            <td class="tg-ofbe">15</td>
+            <td class="tg-ofbe">Third Eye: A Virtual Eye to Make the World Equal</td>
+            <td class="tg-ofbe">Upendra Kumar Tiwari, Mayank Gupta, Mimansha Gupta and Kusum Yadav. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">10</td>
+            <td class="tg-xuzn">16</td>
+            <td class="tg-xuzn">Grid Connected Single Phase Transformer Less Photovoltaic Inverter based   on HERIC Configuration</td>
+            <td class="tg-xuzn">Amrita Mantri, Payal Somani and Somya Jain. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">11</td>
+            <td class="tg-ofbe">17</td>
+            <td class="tg-ofbe">Analytical study on Melanoma Detection using clinical Images</td>
+            <td class="tg-ofbe">Firoz Warsi, Usha Chauhan and Ruqaiya Khanam. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">12</td>
+            <td class="tg-xuzn">18</td>
+            <td class="tg-xuzn">A Survey on Energy Efficient Networking and Its Improved Security   Features</td>
+            <td class="tg-xuzn">Usha Chauhan and Divya Sharma. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">13</td>
+            <td class="tg-ofbe">19</td>
+            <td class="tg-ofbe">Automated Brain Hemorrhage Segmentation using Deep Neural Network</td>
+            <td class="tg-ofbe">Vikas Thapliyal, Indrajeet Kumar, Palak Sharma, Harvendra Singh Bhadauria   and Annapurna Singh.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">14</td>
+            <td class="tg-xuzn">20</td>
+            <td class="tg-xuzn">Digital Image Watermarking Methods – A Review</td>
+            <td class="tg-xuzn">Satender Sharma, Usha Chauhan and Ruqaiya Khanam. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">15</td>
+            <td class="tg-ofbe">21</td>
+            <td class="tg-ofbe">Smart Glove for Translating Sign Gestures to Text</td>
+            <td class="tg-ofbe">Tushar Verma, Suleman Khan, Vipul Kumar, Rijwan Khan and Pawan Kumar   Sharma. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">16</td>
+            <td class="tg-xuzn">22</td>
+            <td class="tg-xuzn">Gesture Vocalizer For Deaf And Dumb</td>
+            <td class="tg-xuzn">Rachit Khare, Ambika Tandon and Dr. Usha Chauhan. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">17</td>
+            <td class="tg-ofbe">23</td>
+            <td class="tg-ofbe">A Review on Applications of Artificial Intelligence in Various Field</td>
+            <td class="tg-ofbe">Baljit Singh Saini, Sk Md Alfayeed and Kamaljit Bhatia. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">18</td>
+            <td class="tg-xuzn">27</td>
+            <td class="tg-xuzn">Smart Cradle Based on IoT</td>
+            <td class="tg-xuzn">Mansi Goyal, Nitin Tyagi, Garima Agarwal and Garima Varshney. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">19</td>
+            <td class="tg-ofbe">28</td>
+            <td class="tg-ofbe">The Efficiency of Virtual Lab in Studying Digital Logic Design Course   Using Logisim</td>
+            <td class="tg-ofbe">Abdelrazig Suliman. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">20</td>
+            <td class="tg-xuzn">29</td>
+            <td class="tg-xuzn">Design &amp; Implementation of Augmented Reality Classroom: A Paradigm   shift from traditional School Setup</td>
+            <td class="tg-xuzn">Krishna Kant Agrawal, Karan Kumar Gupta, Kartikay Mani Parashar and Kanak   Sharma. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">21</td>
+            <td class="tg-ofbe">30</td>
+            <td class="tg-ofbe">Krill Herd Algorithm for Text Document Clustering Using TF-IDF Features</td>
+            <td class="tg-ofbe">Priyanka Shivaprasad More, Baljit Singh Saini and Kamaljit Bhatia. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">22</td>
+            <td class="tg-xuzn">32</td>
+            <td class="tg-xuzn">Smart Wheelchair with Fall Detection Provision: A Telemedicine   Application</td>
+            <td class="tg-xuzn">Baibaswata Mohapatra, Richa Rai and Shubham Pratap Singh. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">23</td>
+            <td class="tg-ofbe">37</td>
+            <td class="tg-ofbe">AlphaZero: The Boss</td>
+            <td class="tg-ofbe">Gulista Khan. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">24</td>
+            <td class="tg-xuzn">44</td>
+            <td class="tg-xuzn">Sentiment Analysis using Ensemble Classification Technique</td>
+            <td class="tg-xuzn">Ashish Sharma, Dhirendra Yadav and Chaudhary Jagrit Varshney.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">25</td>
+            <td class="tg-ofbe">45</td>
+            <td class="tg-ofbe">MACHINE LEARNING TECHNIQUES FOR PREDICTION OF MUSIC</td>
+            <td class="tg-ofbe">Ashish Sharma and Akansha Bansal. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">26</td>
+            <td class="tg-xuzn">46</td>
+            <td class="tg-xuzn">An Efficient Approach of Image Segmentation for Noisy Images</td>
+            <td class="tg-xuzn">Dr. Bhumika Gupta, Manish Joshi and Prof. Rajendra Belwal. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">27</td>
+            <td class="tg-ofbe">48</td>
+            <td class="tg-ofbe">Fake Account Detection using Machine Learning Technique</td>
+            <td class="tg-ofbe">Rishabh Sharma and Ashish Sharma. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">28</td>
+            <td class="tg-xuzn">54</td>
+            <td class="tg-xuzn">Fake News: Detection via Knowledge Graph &amp; Linguistic Approach</td>
+            <td class="tg-xuzn">Pawan Kumar Verma.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">29</td>
+            <td class="tg-ofbe">55</td>
+            <td class="tg-ofbe">The Garth Geeks- Flower Recognition</td>
+            <td class="tg-ofbe">Pawan Kumar Verma. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">30</td>
+            <td class="tg-xuzn">56</td>
+            <td class="tg-xuzn">Vehicle Tracking with alcohol detection &amp; Seat belt control system</td>
+            <td class="tg-xuzn">Nitesh Mandal, Abhishek Sainkar, Omkar Rane and Mahesh Vibhute. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">31</td>
+            <td class="tg-ofbe">57</td>
+            <td class="tg-ofbe">Resume Builder over Rejuvenated AI Features in Website Development</td>
+            <td class="tg-ofbe">Arunav Malhotra, Ashutosh Sharma, Divya Sharma and Feroz Ahmed.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">32</td>
+            <td class="tg-xuzn">58</td>
+            <td class="tg-xuzn">Sensitivity Analysis of Stock Consistency Models for Paper Machine   Headbox using Particle Swarm Optimisation (PSO) based Controllers</td>
+            <td class="tg-xuzn">Parvesh Saini, Pradeep Juneja and Rajesh Kumar. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">33</td>
+            <td class="tg-ofbe">59</td>
+            <td class="tg-ofbe">Lightweight ECC based RFID Authentication Protocol</td>
+            <td class="tg-ofbe">Aditya M. Pillai, Amulya Bhardwaj, Gopesh Mittal and Sanjeev Kumar.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">34</td>
+            <td class="tg-xuzn">60</td>
+            <td class="tg-xuzn">Improving Visibility of Hazy Images using Image Enhancement based   approaches through Fusion of Multiple Exposure Images</td>
+            <td class="tg-xuzn">Subhash Agrawal. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">35</td>
+            <td class="tg-ofbe">61</td>
+            <td class="tg-ofbe">Fuzzy Logic Based Performance Analysis of Cloud application System</td>
+            <td class="tg-ofbe">Anupama Mishra and Dr A K Daniel. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">36</td>
+            <td class="tg-xuzn">62</td>
+            <td class="tg-xuzn">Artificial Neural Network Modeling &amp; Control of Paper Machine Headbox   Parameters</td>
+            <td class="tg-xuzn">Rajesh Kumar. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">37</td>
+            <td class="tg-ofbe">63</td>
+            <td class="tg-ofbe">SMART-DRIVING LICENSE</td>
+            <td class="tg-ofbe">Nipun Jain, Nikita Bhadula, Mohd Daud and Prof. Ankita Dixit. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">38</td>
+            <td class="tg-xuzn">64</td>
+            <td class="tg-xuzn">On the Normalization based Plagiarism Detection in Java Code using   Levensthein Distance</td>
+            <td class="tg-xuzn">Swati Srivastava, Akshit Rai and Mahima Varshney. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">39</td>
+            <td class="tg-ofbe">65</td>
+            <td class="tg-ofbe"> A Graph Clustering Model to Predict Student Retention Using DAG</td>
+            <td class="tg-ofbe">Sherin A, Malavika P Pillai, Anish Giri, Lakshmi Anand and Krishnaveni K   S. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">40</td>
+            <td class="tg-xuzn">66</td>
+            <td class="tg-xuzn">A comprehensive study, Parameter Evaluation and Performance Analysis of   BIPVT system for different climate of India</td>
+            <td class="tg-xuzn">Amit Dash, Sanjay Gairola, Sanjay Agrawal and Chetan Garg. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">41</td>
+            <td class="tg-ofbe">68</td>
+            <td class="tg-ofbe">ELECTION SYSTEM USING BLOCKCHAIN</td>
+            <td class="tg-ofbe">Varun Dhiman, Unmesh Kumar, Aditya Narla, Ankit Kumar, Vinay Sharma and   Dr. Nagendra Pratap Singh. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">42</td>
+            <td class="tg-xuzn">69</td>
+            <td class="tg-xuzn">Challenges of Wireless Body Area Network, Architecture and Applications</td>
+            <td class="tg-xuzn">Indra Kumar Shah, Yogendra Singh Dohare and Tanmoy Maity. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">43</td>
+            <td class="tg-ofbe">71</td>
+            <td class="tg-ofbe">An Intelligent Period Monitor</td>
+            <td class="tg-ofbe">Megh Singhal, Rashi Yadav and Himanshi Bhatnagar.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">44</td>
+            <td class="tg-xuzn">72</td>
+            <td class="tg-xuzn">Anomaly Detection Using Machine Learning Algorithms</td>
+            <td class="tg-xuzn">Yogesh Pant, Apeksha Cheema and Bharti Negi.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">45</td>
+            <td class="tg-ofbe">74</td>
+            <td class="tg-ofbe">Leaf Descry with Ayurveda Facts using Image Processing</td>
+            <td class="tg-ofbe">Parth Singh and Yogesh Pant.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">46</td>
+            <td class="tg-xuzn">77</td>
+            <td class="tg-xuzn">Cluster Based Deep Contextual Reinforcement Learning for top-k   Recommendations</td>
+            <td class="tg-xuzn">Anubha Kabra, Anu Agarwal and Anil Singh Parihar.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">47</td>
+            <td class="tg-ofbe">78</td>
+            <td class="tg-ofbe">Crop Prediction</td>
+            <td class="tg-ofbe">Megh Singhal, Ankit Gupta, Aman Tiwari and Akhilesh Singh.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">48</td>
+            <td class="tg-xuzn">79</td>
+            <td class="tg-xuzn">An Efficient Approach for Temperature Monitoring System</td>
+            <td class="tg-xuzn">Ambika Gupta.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">49</td>
+            <td class="tg-ofbe">81</td>
+            <td class="tg-ofbe">Performance Comparison of Indirect Vector Controlled Induction Motor   Drives using FLC, IMC and PSO</td>
+            <td class="tg-ofbe">Bhola Jha and Manoj Kumar Panda. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">50</td>
+            <td class="tg-xuzn">82</td>
+            <td class="tg-xuzn">Battery health monitoring and controlling for HEV application</td>
+            <td class="tg-xuzn">Kausik Bhaumik.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">51</td>
+            <td class="tg-ofbe">83</td>
+            <td class="tg-ofbe">A review of cluster based wireless sensor network using swarm   intelligence</td>
+            <td class="tg-ofbe">Shravankumar Sauda, Sayantan Kar and Mohit Singh Bisht. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">52</td>
+            <td class="tg-xuzn">84</td>
+            <td class="tg-xuzn">Development of Robust Control Algorithm for Inertially Stabilized   Platform</td>
+            <td class="tg-xuzn">Rajesh Kumar. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">53</td>
+            <td class="tg-ofbe">85</td>
+            <td class="tg-ofbe">Optimization of Green Signal using Firefly Algorithm</td>
+            <td class="tg-ofbe">Sayantan Kar and Usha Mittal.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">54</td>
+            <td class="tg-xuzn">86</td>
+            <td class="tg-xuzn">Online Based Approach For Frequency Control of Micro-Grid Using GWO</td>
+            <td class="tg-xuzn">Bhola Jha and Manoj Kumar Panda.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">55</td>
+            <td class="tg-ofbe">87</td>
+            <td class="tg-ofbe">SANJEEVNI- WE CARE FOR LIFE Using Big Data-Apache Spark</td>
+            <td class="tg-ofbe">Nipun Tyagi, Nikita Chauhan, Ayushi Singhal, Rijwan Khan, Upendra Kumar   Tiwari and Avinash Kumar Sharma.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">56</td>
+            <td class="tg-xuzn">88</td>
+            <td class="tg-xuzn">Comparative Study of Wireless Technologies used in Home Automation with   AI</td>
+            <td class="tg-xuzn">Lalan Kumar and Arushi Sharma.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">57</td>
+            <td class="tg-ofbe">89</td>
+            <td class="tg-ofbe">Detection and Prediction of Infectious Diseases Using IoT Sensors: A   Review</td>
+            <td class="tg-ofbe">Mohammad Meraj, Mohammad Tabrez Quasim, Prashant Johri and Surendra Pal   Singh. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">58</td>
+            <td class="tg-xuzn">90</td>
+            <td class="tg-xuzn">SURVEY PAPER ON EDGE COMPUTING: NECESSITY OF 5G</td>
+            <td class="tg-xuzn">Priya Singh. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">59</td>
+            <td class="tg-ofbe">91</td>
+            <td class="tg-ofbe">A review paper on Machine Learning</td>
+            <td class="tg-ofbe">Neha Goel and Avinash Kumar Sharma.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">60</td>
+            <td class="tg-xuzn">92</td>
+            <td class="tg-xuzn">Comparative Analysis of Control Schemes in Single-phase Grid connected   Photovoltaic System</td>
+            <td class="tg-xuzn">Pankaj Negi.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">61</td>
+            <td class="tg-ofbe">93</td>
+            <td class="tg-ofbe">A Comparative Analysis on Allocation of Resources in Cloud Computing   Environment</td>
+            <td class="tg-ofbe">Ambika Gupta and Ambika Gupta. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">62</td>
+            <td class="tg-xuzn">94</td>
+            <td class="tg-xuzn">Collision Detection for USVs: An Analysis on CV algorithms</td>
+            <td class="tg-xuzn">Siddharth Kumar, Rammanoj Potla, Gayathri Ravipati and Gopakumar G.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">63</td>
+            <td class="tg-ofbe">95</td>
+            <td class="tg-ofbe">ENERGY EFFICIENT &amp; SECURED HOUSING</td>
+            <td class="tg-ofbe">Yogesh Pant, Atul Rawat and Abhishek Gupta.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">64</td>
+            <td class="tg-xuzn">98</td>
+            <td class="tg-xuzn">BRAIN TUMOR DETECTION USING MACHINE LEARNING IN GUI</td>
+            <td class="tg-xuzn">Akshita Rawat and Deepika Sherawat.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">65</td>
+            <td class="tg-ofbe">99</td>
+            <td class="tg-ofbe">Advanced Eye Controlled Wheel Chair</td>
+            <td class="tg-ofbe">Mr. Saurabh Singh and Deepika Sherawat.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">66</td>
+            <td class="tg-xuzn">100</td>
+            <td class="tg-xuzn">BrainTumourDetection&amp;SegmentedClassification of CT-Scan and MRI Image</td>
+            <td class="tg-xuzn">Sanjay Kumar and Dr. J N Singh Singh.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">67</td>
+            <td class="tg-ofbe">102</td>
+            <td class="tg-ofbe">Diabetic Retinopathy Stage Classification</td>
+            <td class="tg-ofbe">Suyash Garg, Rahul Bajaj and Nilima Kulkarni.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">68</td>
+            <td class="tg-xuzn">107</td>
+            <td class="tg-xuzn">Automated Short Answer Scoring Using Latent Semantic Indexing</td>
+            <td class="tg-xuzn">Naveen Raj, Anandakrishnan P, Akshay Sreekumar, Mahesh S Nair and   Jayasree Narayanan.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">69</td>
+            <td class="tg-ofbe">108</td>
+            <td class="tg-ofbe">Mudra: An Indian Sign Language Translator for Banks</td>
+            <td class="tg-ofbe">Vyshnavi Venugopal, Vishnupriya N V, Gautham Jayadeep, Vishnu S and   Geetha M.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">70</td>
+            <td class="tg-xuzn">109</td>
+            <td class="tg-xuzn">An Android based travel safety app using machine learning</td>
+            <td class="tg-xuzn">T R Krishnaprasad, Ravipati Jhansi and Sai Keerthana.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">71</td>
+            <td class="tg-ofbe">114</td>
+            <td class="tg-ofbe">A Review on Massive Multiple-Input Multiple-Output (MIMO) System’s   Combiners</td>
+            <td class="tg-ofbe">Garima Kulshreshtha and Usha Chauhan. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">72</td>
+            <td class="tg-xuzn">116</td>
+            <td class="tg-xuzn">Child Tracking using IoT and GPS</td>
+            <td class="tg-xuzn">Anjana Bhardwaj. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">73</td>
+            <td class="tg-ofbe">117</td>
+            <td class="tg-ofbe">Dhrishti: A Visual Aiding System for Outdoor Environment</td>
+            <td class="tg-ofbe">Amruda Kandoth, Arya N R, Ritika Pillai, Priya T V and Geetha M. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">74</td>
+            <td class="tg-xuzn">118</td>
+            <td class="tg-xuzn">RICHTER’S PREDICTOR: MODELING EARTHQUAKE DAMAGE USING RANDOM FOREST</td>
+            <td class="tg-xuzn">Bharat Lal, Sanjay Pratap Singh Chauhan and Usha Chauhan.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">75</td>
+            <td class="tg-ofbe">121</td>
+            <td class="tg-ofbe">SMART SHOES FOR BLIND</td>
+            <td class="tg-ofbe">Geetanjali Raj, Sumit Gupta, Mohit and Shubham Singh.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">76</td>
+            <td class="tg-xuzn">122</td>
+            <td class="tg-xuzn">Autonomous Car and Driver Drowsiness Detection using Face and eyes   Detection Technique</td>
+            <td class="tg-xuzn">Priyanka Singh Saini, Kirti Mandal, Sonia Sharma, Khushbu Bansal,   Pallavie Tyagi and Sanjay Kr. Singh. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">77</td>
+            <td class="tg-ofbe">131</td>
+            <td class="tg-ofbe">A Pragmatic approach to IoT and distributed system framework era</td>
+            <td class="tg-ofbe">Ujjwal Kumar and N.Suresh Kumar.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">78</td>
+            <td class="tg-xuzn">132</td>
+            <td class="tg-xuzn">Interactive pH measurement system</td>
+            <td class="tg-xuzn">Himani Garg, Navneet Sharma, Manidipa Roy and Sanjay.Kr. Singh.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">79</td>
+            <td class="tg-ofbe">137</td>
+            <td class="tg-ofbe">Wideband Antenna for Medical Implant in Medical Device Radio   communications Service Band</td>
+            <td class="tg-ofbe">Pinku Ranjan, Sneha Chand, Abhay Krishna Yadav and Surjeet Singh   Patel. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">80</td>
+            <td class="tg-xuzn">139</td>
+            <td class="tg-xuzn">Differential Amplifier analysis on different technology nodes using   Cadence Virtuoso</td>
+            <td class="tg-xuzn">Pallavie Tyagi, Khushbu Bansal, Sanjay Kr. Singh and Pushkar Praveen.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">81</td>
+            <td class="tg-ofbe">141</td>
+            <td class="tg-ofbe">Social Distance Monitoring and Alarm System</td>
+            <td class="tg-ofbe">Shilpa Srivastava and Dr. Sanjay Kumar Singh.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">82</td>
+            <td class="tg-xuzn">143</td>
+            <td class="tg-xuzn">A NOVEL APPROACH FOR PRODUCT CIPHER ENCRYPTION ALGORITHM USING CIRCULAR   QUEUES</td>
+            <td class="tg-xuzn">Kamal Kumar Gola. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">83</td>
+            <td class="tg-ofbe">144</td>
+            <td class="tg-ofbe">A Systematic Review on Security Metric in Secure Software Development   Lifecycle</td>
+            <td class="tg-ofbe">Sampada G.C, Tende Ivo Sake and Amrita Prasad.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">84</td>
+            <td class="tg-xuzn">145</td>
+            <td class="tg-xuzn">Smart Farming using IoT</td>
+            <td class="tg-xuzn">Kolli Revanth, Shaik Mohammed Arshad and Prathibhamol C.P.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">85</td>
+            <td class="tg-ofbe">147</td>
+            <td class="tg-ofbe">Low Power VLSI Design of Arithmetic and Logic Circuits using Multiple   Threshold CMOS Technique</td>
+            <td class="tg-ofbe">Prachi Kataria, Anuwarti Rai, Aanchal Singh, Ashwin Anand, Raman Kapoor   and Sanjay Kr. Singh.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">86</td>
+            <td class="tg-xuzn">148</td>
+            <td class="tg-xuzn">Web development frameworks and its performance analysis-A Review</td>
+            <td class="tg-xuzn">Sai Prasad Mishra and Saurabh Kumar Srivastava.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">87</td>
+            <td class="tg-ofbe">150</td>
+            <td class="tg-ofbe">Tracking the Corona virus: Build big data visualization dashboard to   delivers real- time view of the deadly virus</td>
+            <td class="tg-ofbe">Shashank Baranwal, Sonia Kukreja and Deepika Sherawat.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">88</td>
+            <td class="tg-xuzn">151</td>
+            <td class="tg-xuzn">ECG Signal Compression using Dual-Tree Sparse Decomposition of DWT   Filters and HRV Analysis</td>
+            <td class="tg-xuzn">Ranjeet Kumar, Agya Ram Verma, Manoj Kumar Panda and Papendra Kumar.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">89</td>
+            <td class="tg-ofbe">152</td>
+            <td class="tg-ofbe">Investigation of Compact MIMO Antenna for WLAN Application</td>
+            <td class="tg-ofbe">Pinku Ranjan, Vivek Kumar, Shubham Singh, Swati Khandare, Abhay Krishna   Yadav and Surjeet Singh Patel.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">90</td>
+            <td class="tg-xuzn">153</td>
+            <td class="tg-xuzn">Cloud-based fully automated domestic wastewater disposal system in   flood-affected urban cities</td>
+            <td class="tg-xuzn">Himanshu Rai Goyal, Kamal Kumar Ghanshala and Sachin Sharma.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">91</td>
+            <td class="tg-ofbe">156</td>
+            <td class="tg-ofbe">IoT based- Advanced Weather Monitoring System</td>
+            <td class="tg-ofbe">Sanjay Kr. Singh, Ranjeeta Yadav, Pranavi Yadav and Nimish Nigam.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">92</td>
+            <td class="tg-xuzn">157</td>
+            <td class="tg-xuzn">Design and Tuning of PID Controller for Inherently Unstable System</td>
+            <td class="tg-xuzn">Pankaj Swarnkar and Harsh Goud.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">93</td>
+            <td class="tg-ofbe">158</td>
+            <td class="tg-ofbe">Survey on Applications of AI in Medical Science</td>
+            <td class="tg-ofbe">Feroz Ahmed and Aditi Tiwari.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">94</td>
+            <td class="tg-xuzn">159</td>
+            <td class="tg-xuzn">SDNFV 5G-IoT: A Framework for the Next Generation 5G enabled IoT</td>
+            <td class="tg-xuzn">Neha Gupta, Sachin Sharma, Pradeep Juneja and Umang Garg. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">95</td>
+            <td class="tg-ofbe">161</td>
+            <td class="tg-ofbe">Solar Powered Smart Irrigation System (SPSIS) With Plant Leaf Disease   Detection</td>
+            <td class="tg-ofbe">Suraj Thalal and Shlok Srivastava.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">96</td>
+            <td class="tg-xuzn">162</td>
+            <td class="tg-xuzn">Microcontroller Based Monitoring and Alert System</td>
+            <td class="tg-xuzn">Ranjeeta Yadav and Divya Mishra.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">97</td>
+            <td class="tg-ofbe">163</td>
+            <td class="tg-ofbe"> An Impact of Machine Learning for Processing Big Data in High   Performance Computing</td>
+            <td class="tg-ofbe">Kamal Kumar Gola.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">98</td>
+            <td class="tg-xuzn">164</td>
+            <td class="tg-xuzn">Blockchain for secure IoT and Edge Computing: A Survey</td>
+            <td class="tg-xuzn">Shivani Wadhwa and Gagandeep.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">99</td>
+            <td class="tg-ofbe">165</td>
+            <td class="tg-ofbe">Multifunction filter using CCII</td>
+            <td class="tg-ofbe">Shailendra Bisariya, Rishabh Aggarwal, Preeti Anand, Shaurya Garg and   Sanjay Kr. Singh. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">100</td>
+            <td class="tg-xuzn">166</td>
+            <td class="tg-xuzn">Multiple Object Detection</td>
+            <td class="tg-xuzn">Ankit Singh and Dr. Hari Om Sharan Sinha.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">101</td>
+            <td class="tg-ofbe">169</td>
+            <td class="tg-ofbe">E-Waste Management and Energy Conservation in Industries</td>
+            <td class="tg-ofbe">M S Shreyas, K Rakshak, Ashish M Bhat, Aman Singh and H M Anitha.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">102</td>
+            <td class="tg-xuzn">170</td>
+            <td class="tg-xuzn">Design of Current Conveyor Trans-Conductance Amplifier for low power   applications: A Review</td>
+            <td class="tg-xuzn">Shailendra Bisariya, Raman Kapoor, Sanjay Kr. Singh and Pushkar Praveen.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">103</td>
+            <td class="tg-ofbe">173</td>
+            <td class="tg-ofbe">Techniques and tools used for sentiment analysis using twitter data</td>
+            <td class="tg-ofbe">Riya Goyal and Saurabh Srivastava.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">104</td>
+            <td class="tg-xuzn">174</td>
+            <td class="tg-xuzn">Optimization of Dynamic Clock based D Flip Flop for Low Power   Applications</td>
+            <td class="tg-xuzn">Dr. Usha Chauhan, Shruti Srivastava and Dr.Rashid Ansari.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">105</td>
+            <td class="tg-ofbe">175</td>
+            <td class="tg-ofbe">Design &amp; Simulation of CNTFET based folded Cascode Op-Amp for   Instrumentation Amplifier</td>
+            <td class="tg-ofbe">Priyanka Tyagi, Sanjay Singh and Piyush Dua.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">106</td>
+            <td class="tg-xuzn">176</td>
+            <td class="tg-xuzn">IoT BASED MONITORING OF ELECTRICAL PARAMETERS OF DISTRIBUTION TRANSFORMER</td>
+            <td class="tg-xuzn">Shreya Tyagi, Saket Kumar, Dr. R K Viral, Dr. H.P. Singh, Sahib Verma and   Himanshu Gupta.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">107</td>
+            <td class="tg-ofbe">178</td>
+            <td class="tg-ofbe">Synchrophasor Data Management: A High Performance Computing Perspective</td>
+            <td class="tg-ofbe">Thasnimol C M and Rajathy R.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">108</td>
+            <td class="tg-xuzn">179</td>
+            <td class="tg-xuzn">IoT- based Skin Disease Monitoring Wearable Application System</td>
+            <td class="tg-xuzn">Shuchi Juyal. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">109</td>
+            <td class="tg-ofbe">182</td>
+            <td class="tg-ofbe">Spectral Features based Speech Recognition for Speech Interfacing to   Control PC Windows</td>
+            <td class="tg-ofbe">Abhinav Sharma and Anshu Sharma.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">110</td>
+            <td class="tg-xuzn">183</td>
+            <td class="tg-xuzn">IOT BASED HEALTH MONITORING SYSTEM FOR INFANTS</td>
+            <td class="tg-xuzn">Chiranjeev Tripathi, Rajat Yadav and Usha Chauhan.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">111</td>
+            <td class="tg-ofbe">184</td>
+            <td class="tg-ofbe">A Review of Stock Market Analysis Approaches and Forecasting Techniques</td>
+            <td class="tg-ofbe">Chinthakunta Manjunath, Balamurugan M, Bikramaditya Ghosh and Addapalli V   N Krishna.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">112</td>
+            <td class="tg-xuzn">186</td>
+            <td class="tg-xuzn">A nonlinear anisotropic diffusion model with forward-backward   diffusivities for image denoising</td>
+            <td class="tg-xuzn">Santosh Kumar, Khursheed Alam and Nitendra Kumar. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">113</td>
+            <td class="tg-ofbe">188</td>
+            <td class="tg-ofbe">A SURVEY ON ACTION RECOGNITION IN SPORTS</td>
+            <td class="tg-ofbe">Seemanthini K. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">114</td>
+            <td class="tg-xuzn">191</td>
+            <td class="tg-xuzn">Intelligent system for question paper generation using java</td>
+            <td class="tg-xuzn">Sumit Kumar, Aditya Prakash and Usha Chauhan. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">115</td>
+            <td class="tg-ofbe">192</td>
+            <td class="tg-ofbe">Power Quality Issues in Grid Integrated Renewable Energy Systems &amp;   their Mitigation Using UPQC</td>
+            <td class="tg-ofbe">Yudhishthir Pandey and Aman Singh. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">116</td>
+            <td class="tg-xuzn">193</td>
+            <td class="tg-xuzn">Design of Hybrid Wind/Solar System with BESS for Offgrid Application</td>
+            <td class="tg-xuzn">Himanshu Karn, Sweta Kumari, Lokesh Varshney and Lokesh Garg. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">117</td>
+            <td class="tg-ofbe">194</td>
+            <td class="tg-ofbe">Lower limb muscle EMG analysis to predict ankle-foot activities for   prosthesis control</td>
+            <td class="tg-ofbe">Rohit Gupta and Ravinder Agarwal. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">118</td>
+            <td class="tg-xuzn">195</td>
+            <td class="tg-xuzn">Comparative Performance Analysis of Different Schemes in IEEE802.11n   Wireless LAN on MAC Layer</td>
+            <td class="tg-xuzn">Mr. Amiteshwar Bhalavi, Dr. Sanjiv Tokekar and Dr. Ankit Saxena. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">119</td>
+            <td class="tg-ofbe">196</td>
+            <td class="tg-ofbe">Metric Dimension of Join of a Path with Other Families of Graph</td>
+            <td class="tg-ofbe">Bipendra Singh Rawat and Prabhakar Pradhan. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">120</td>
+            <td class="tg-xuzn">197</td>
+            <td class="tg-xuzn">Energy Efficient Event Reliability Protocol for wireless communication   Networks</td>
+            <td class="tg-xuzn">Gulista Khan. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">121</td>
+            <td class="tg-ofbe">200</td>
+            <td class="tg-ofbe">Metric Dimension of Corona Product of Graphs</td>
+            <td class="tg-ofbe">Bipendra Singh Rawat and Prabhakar Pradhan. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">122</td>
+            <td class="tg-xuzn">201</td>
+            <td class="tg-xuzn">Application of Nature Inspired Algorithms for Solving Optimal Power Flow   Problems</td>
+            <td class="tg-xuzn">Narendra Kumar, Yogesh K. Kataria, Saket K. Jha and Sandeep Singh. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">123</td>
+            <td class="tg-ofbe">202</td>
+            <td class="tg-ofbe"> Steganography</td>
+            <td class="tg-ofbe">Satyam Mishra and Deepica S. Dominic.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">124</td>
+            <td class="tg-xuzn">203</td>
+            <td class="tg-xuzn">Performance Analysis of Imputation Methods on Air Quality Dataset</td>
+            <td class="tg-xuzn">Aayush Tyagi, Ayush Koul and Manish Mahajan. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">125</td>
+            <td class="tg-ofbe">206</td>
+            <td class="tg-ofbe"> SUCCESSORS OF LEACH PROTOCOL WITH SINGLE HOP COMMUNICATION IN   WIRELESS SENSOR NETWORKS</td>
+            <td class="tg-ofbe">Kamal Kumar Gola.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">126</td>
+            <td class="tg-xuzn">207</td>
+            <td class="tg-xuzn">Traffic Sign Classification using ODEnet</td>
+            <td class="tg-xuzn">Nitheesh Chandra Yaratapalli, Reethesh Venkataraman, Abhishek Dinesan,   Ashni Manish Bhagvandas and Padmamala Sriram. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">127</td>
+            <td class="tg-ofbe">208</td>
+            <td class="tg-ofbe">Deep Learning Models for Anomaly Detection in Wireless Capsule Endoscopy   Video Frames: Transfer Learning Approach</td>
+            <td class="tg-ofbe">Samir Jain, Ayan Seal and Aparajita Ojha. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">128</td>
+            <td class="tg-xuzn">209</td>
+            <td class="tg-xuzn">Waste Segregation Using Deep Learning</td>
+            <td class="tg-xuzn">Prajakta Pednekar, Shailaja Rajadhyaksha, Swanit Rane and Meena   Ugale. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">129</td>
+            <td class="tg-ofbe">210</td>
+            <td class="tg-ofbe">MH-ZBHR:Multi-Hop Zonal Based Hybrid Routing Protocol For Wireless Sensor   Network Using Fuzzy Technique</td>
+            <td class="tg-ofbe">Kritika Mishra. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">130</td>
+            <td class="tg-xuzn">212</td>
+            <td class="tg-xuzn">GOLD NANO LAYERED THIN FILM SOLAR CELL WITH BROADBAND ABSORPTION</td>
+            <td class="tg-xuzn">Ankit Jaiswal, Ashi Khajotia and Yogitra Kalra. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">131</td>
+            <td class="tg-ofbe">214</td>
+            <td class="tg-ofbe">Analysis of Conformable Fractional SEIR Model With Treatment</td>
+            <td class="tg-ofbe">Arti Malik, Nitendra Kumar and Khursheed Alam. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">132</td>
+            <td class="tg-xuzn">215</td>
+            <td class="tg-xuzn"> Analysis of Conformable Fractional Derivative Model of SEIR -SEI   Epidemic</td>
+            <td class="tg-xuzn">Arti Malik, Khursheed Alam and Nitendra Kumar.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">133</td>
+            <td class="tg-ofbe">217</td>
+            <td class="tg-ofbe"> Dark and Low Contrast Satellite Image Enhancement using DWT-SVD   Based on Fuzzy Logic Technique</td>
+            <td class="tg-ofbe">A Verma, Pushkar Praveen, Bhumika Gupta and Surjeet Patel.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">134</td>
+            <td class="tg-xuzn">218</td>
+            <td class="tg-xuzn">Sanitary napkin disposal system</td>
+            <td class="tg-xuzn">Yash Pawar and Pradnya Chavan. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">135</td>
+            <td class="tg-ofbe">219</td>
+            <td class="tg-ofbe">Vertical Feature Pyramid Networks</td>
+            <td class="tg-ofbe">Shivam Raj, Natasha Sebastian and Anil Singh Parihar. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">136</td>
+            <td class="tg-xuzn">220</td>
+            <td class="tg-xuzn">A COVID Detector Based on IoT</td>
+            <td class="tg-xuzn">Priti Kumari and Bhumika Gupta.</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">137</td>
+            <td class="tg-ofbe">221</td>
+            <td class="tg-ofbe">Modified Taylor Wavelet Galerkin –Method for the Numerical Solution of   One Dimensional Partial Differential Equations</td>
+            <td class="tg-ofbe">Ankit Kumar and Sag Ram Verma. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">138</td>
+            <td class="tg-xuzn">222</td>
+            <td class="tg-xuzn">Fuzzy based Local Fractional Fourier series using Fuzzy Numbers</td>
+            <td class="tg-xuzn">Simran Sokhal and Sagram Verma. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">139</td>
+            <td class="tg-ofbe">223</td>
+            <td class="tg-ofbe">PDE-based time dependent model for image restoration with   forward-backward diffusivity</td>
+            <td class="tg-ofbe">Santosh Kumar, Nitendra Kumar and Khursheed Alam. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">140</td>
+            <td class="tg-xuzn">224</td>
+            <td class="tg-xuzn">Bernstein polynomial multiwavelets direct method for certain physical   variational problems</td>
+            <td class="tg-xuzn">Shweta Pandey, Sandeep Dixit and Sag Ram Verma. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">141</td>
+            <td class="tg-ofbe">226</td>
+            <td class="tg-ofbe">Smart Irrigation System Using IoT</td>
+            <td class="tg-ofbe">Priti Kumari and Sanjay Singh. </td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">142</td>
+            <td class="tg-xuzn">228</td>
+            <td class="tg-xuzn">Accident Prevention Using Auto Braking System &amp; Accident Detection   using Internet of Things</td>
+            <td class="tg-xuzn">Gitanjali Mehta, Manoj Singh, Shubham Dubey, Uzair Ashraf, Yogesh Mishra   and Ruquaiya Khanam. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">143</td>
+            <td class="tg-ofbe">229</td>
+            <td class="tg-ofbe">DESIGNING AND PERFORMANCE ANALYSIS OF 15KWp GRID CONNECTION PHOTOVOLTAIC   SYSTEM USING PVSYST SOFTWARE</td>
+            <td class="tg-ofbe">Akash Chauhan, Mayank Sharma and Sarita Baghel.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">144</td>
+            <td class="tg-xuzn">230</td>
+            <td class="tg-xuzn">Modeling of Contrast Based Sub-band Extraction Strategies in Ship   Detection</td>
+            <td class="tg-xuzn">Abdul Rahman, Ruquyia Khanam and Ruchika Singh. </td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">145</td>
+            <td class="tg-ofbe">231</td>
+            <td class="tg-ofbe">Design and Implementation of ALU based FIR Filter</td>
+            <td class="tg-ofbe">Ruqaiya Khanam and Gitanjali Mehta.</td>
+          </tr>
+          <tr>
+            <td class="tg-xuzn">146</td>
+            <td class="tg-xuzn">232</td>
+            <td class="tg-9kfn"> Sign Recognition Using SVM and   Convolutional Neural Network</td>
+            <td class="tg-xuzn">Renuka Ayyajjanavar and Dr. P. Jayarekha. Traffic</td>
+          </tr>
+          <tr>
+            <td class="tg-ofbe">147</td>
+            <td class="tg-ofbe">233</td>
+            <td class="tg-ofbe">An Assessment on SRAM using MOSFET and FinFET Technology in VLSI</td>
+            <td class="tg-ofbe">Mohammad Rashid Ansari, Usha Chauhan and Rajesh Kumar Raushan. </td>
+          </tr>
+        </tbody>
+        </table>
+      
+    </div>
+    <div>
+      
+        
+    <div class="footer-bottom">
+      <p>
+        &copy; Smart Com 2020 | Designed & Developed by &nbsp;
+        <a
+          href="https://www.linkedin.com/in/kartikey-ranjan-750164104/"
+          target="_blank"
+          >Kartikey Ranjan</a
+        >
+      </p>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: "aos-init", // class applied after initialization
+        animatedClassName: "aos-animate", // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 0, // offset (in px) from the original trigger point
+        delay: 50, // values from 0 to 3000, with step 50ms
+        duration: 500, // values from 0 to 3000, with step 50ms
+        easing: "ease", // default easing for AOS animations
+        once: true, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: "top-bottom" // defines which position of the element regarding to window should trigger the animation
+      });
+    </script>
+    <script src="../JS/nav-animation.js"></script>
+  </body>
+</html>
