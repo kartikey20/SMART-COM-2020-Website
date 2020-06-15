@@ -347,8 +347,8 @@ publication section
   flex-direction: row;
 }
 .short-images img {
-  width: 9em;
-  height: 6em;
+  width: 25em;
+  height: 10em;
   margin-right: 2em;
 }
 .img-box-shadow {
