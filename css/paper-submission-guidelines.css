@@ -123,3 +123,7 @@ ul li {
 .icon{
   vertical-align: middle;
 }
+.column{
+ display: grid;
+  grid-template-columns: 1fr 1fr;
+}
